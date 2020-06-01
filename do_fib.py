@@ -8,16 +8,14 @@ def fib(max):
         n = n + 1
     return 'done'
 
-
-
-
 def do_fib(max):
     n, a, b = 0, 0, 1
     while n < max:
         yield b
         a, b = b, a + b
         n = n + 1
-    return 'done'
+    # return 'done'
+    print('done')
 
 g = do_fib(10)
 for n in g:
