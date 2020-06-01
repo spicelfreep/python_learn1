@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-'''
+"""
 @File       :   test.py
 @Time       :   2019/11/28 7:23
 @Author     :   helin
@@ -13,7 +13,7 @@
 @Modify Time      @Author     @Version    @Desciption
 ------------      -------     --------    -----------
 2019/11/28 7:23  helin       1.0         None
-'''
+"""
 
 import json
 
