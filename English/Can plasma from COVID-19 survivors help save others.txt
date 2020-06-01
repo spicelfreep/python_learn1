@@ -1,0 +1,216 @@
+﻿# A recovered COVID-19 patient donates plasma at a clinic In Bangkok. ADISORN CHABSUNGNOEN/SOPA IMAGES/LIGHTROCKET/GETTY IMAGES
+# 一名康复的COVID-19患者在曼谷一家诊所捐赠血浆
+
+Can plasma from COVID-19 survivors help save others?
+来自COVID-19幸存者的血浆可以帮助拯救他人吗？
+
+By Kai Kupferschmidt | May. 27. 2020 , 5:25 PM
+
+
+Science's COVID-19 reporting is supported by the Pulitzer Center.
+普利策中心支持Science的COVID-19报告。
+
+
+Part One:
+On 13 March, with the COVID-19 pandemic exploding and drugs elusive.
+3月13日，COVID-19大流行爆发，难以捉摸的病毒/药物无法治疗。
+
+Arturo Casadevall published what he considers "Maybe the most important paper" of his long career.
+Arturo Casadevall发表了他认为是他长期职业生涯的“也许是最重要的论文”。
+
+In The Journal of Clinical Investigation, 
+在《临床研究杂志》中,
+
+The Infectious disease specialist at Johns Hopkins University and Liiseanne Pirofski of Albert Einsten College of Medicine argued that one effective treatment might already be at hand:
+约翰·霍普金斯大学（Johns Hopkins University）的传染病专家和阿尔伯特·爱因斯滕医学院（Albert Einsten College of Medicine）的利森娜·皮罗夫斯基（Liiseanne Pirofski）认为，可能已经有一种有效的治疗方法:
+
+the blood plasma of people who have recovered from the disease, rich in antibodies against the virus.
+从疾病中恢复过来的人的血浆中富含抗病毒的抗体。
+
+The strategy seems to have worked in other infections, the duo pointed out, and the infrastructure for collecting and administering plasma exists. 
+二人指出，该策略似乎在其他感染中也奏效，并且存在收集和管理血浆的基础设施。
+
+The risks are known and comparatively low. "We recommend that institutions ... begin preparations as soon as possible," they wrote. "Time is of the essence."
+风险是已知的并且相对较低。 他们写道：“我们建议机构……尽快开始准备工作。” “时间就是生命。”
+
+
+Part Two:
+Ten weeks later, more than 16,000 patients at hundreds of U.S. hospitals have received the experimental therapy,and hope that it works could soon give way to evidence. 
+十周后，美国数百家医院的16,000多名患者接受了实验性治疗，希望它的工作能够很快给予佐证。
+
+A study of patients treated with serum at Mount Sinal Hospital in New YorK City, published as a preprint on 22 May, offers hints it may, as do other small studies elsewhere. 
+5月22日作为预印本在纽约市西奈山医院接受血清治疗的患者研究表明，这可能与其他地方的其他小型研究一样。
+
+But randomized controlled clinical trials (RCTs) that will give more definitive answers are still underway.
+但是，能给出更多明确答案的随机对照临床试验（RCT）仍在进行中。
+
+
+Related(有关[消息]):
+Merck, one of Big Pharma's biggest players, reveals its COVID-19 vaccine and therapy plans.
+大型制药公司最大的参与者之一的默克（Merck）透露了其COVID-19疫苗和治疗计划。
+
+Doubts greet $1.2 billion bet by United States on a coronavirus vaccine by October.
+令人怀疑的是，到十月份，美国对冠状病毒疫苗的赌注为12亿美元。
+
+Why do some COVID-19 patients infect many others, whereas most don't spread the virus at all?
+为什么某些COVID-19患者会感染许多其他患者，然而大多数却根本不会传播该病毒？
+
+
+Part Three:
+
+Blood or plasma from recovered patients has been tried as a therapy since at least the Spanish flu of 1918;
+至少从1918年西班牙流感开始，就已经尝试过从康复患者的血液或血浆中进行治疗。
+
+reports from that pandemic suggest it helped.
+大流行的报告表明它有所帮助。
+
+It has also been used to fight measles, severe acute respiratory syndrome, and lesser-known diseases such as Argentine hemorrhagic fever. 
+它也已被用来对抗麻疹，严重的急性呼吸系统综合症以及鲜为人知的疾病，例如阿根廷出血热。
+
+In a 1907s study of 188 patients with that disease, only 1% of plasma recipients died, versus 16.5% in a control group. 
+在1907年代对188例该病患者的研究中，只有1％的血浆接受者死亡，而对照组为16.5％。
+# versus: against (especially in sports and legal use).
+
+"I think that it has a high likehood [of working] based on history." Casadevall says.
+“我认为根据历史，[这种方法起作用]的可能性很大。” 卡萨德维尔说。
+
+Part Four:
+But some examples are less encouraging, says Marylyn Addo, an infectious disease specialist at the University Medical Center Hamburg-Eppendorf. 
+汉堡-埃彭多夫大学医学中心的传染病专家玛丽琳•阿多说，但有些例子并不令人鼓舞。
+
+In a study of 84 Ebola patients in Guinea in 2015, doctors did not see a benefit from convalescent plasma.(It's not clear why;perhaps the plasma just didn't contain that many potent antibodies.)
+在2015年对几内亚的84位埃博拉患者进行的研究中，医生没有看到康复期血浆的益处（尚不清楚原因;也许血浆中没有那么多有效的抗体）。
+
+And the treatment carries risks: Transfusions can transmit blood-borne pathogens,and in rare case lead to conditions such as transfusion-related acute lung injury(TRALI), in which transferred antibodies damage pulmonary blood vessels, or transfusion-associated circulatory overload(TACO), when the patient's body doesn't adapt to the added blood volume, which can be up to half a liter.
+而且这种治疗方法存在风险：输血会传播血源性病原体，在极少数情况下会导致诸如输血相关的急性肺损伤（TRALI），转移的抗体损害肺血管或输血相关的循环系统超负荷（TACO） ），当患者的身体不适应所增加的血液量时,最多可升至半升。
+
+Both can lead to difficulty breathing and death.
+两者都会导致呼吸困难和死亡。
+
+Using convalescent plasma is "an interesting concept, but I'm rather cautious," Addo says.
+Addo说，使用恢复血浆是“一个有趣的概念/学说，但我相当谨慎”。
+
+Part Five:
+Chinese doctors began to experiment with convalescent plasma in COVID-19 patients in January. 
+一月份，中国医生开始对COVID-19患者的恢复血浆进行实验。
+
+In an April study published in the Proceedings of the National Academy of Sciences, they reported that 10 out of 10 plasma recipients improved, whereas three out of 10 "matched controls" --people with the same characteristics who didn't get the treatment--died.
+在4月发表于《美国国家科学院院刊》上的一项研究中，他们报告说，十分之十的血浆接受者得到了改善，而十分之三的“匹配对照”-具有相同特征但未接受治疗的人--死了.
+
+Further small studies from China, Italy, and elsewhere also looked promising.
+来自中国，意大利和其他地方的进一步小型研究也似乎很有希望。
+
+The Mount Sinai case series is the largest so far.
+西奈山案例系列是迄今为止最大的案例。
+
+The researchers didn't take the time to set up a randomized trial because "time was a luxury we didn't have in NYC,"
+研究人员没有花时间进行随机试验，因为“时间是我们在纽约所没有的奢侈品”，
+
+Mount Sinai virologist Nicole Bouvier, one of the study's authors, wrote in an email.
+该研究的作者之一西奈山病毒学家妮可·鲍维尔（Nicole Bouvier）在一封电子邮件中写道。
+
+But because plasma was scarce in the early phase of the pandemic, plenty of patients did not get it enabling the team to set up a matched control trial comparing 39 severe COVID-19 patients who received plasma with four time as many patients who didn't.
+但是由于大流行初期血浆缺乏，因此许多患者未能获得血浆，因此该团队建立了一个匹配的对照试验，对39名接受血浆的严重COVID-19患者与未接受血浆的患者进行了四倍的比较。 
+
+The difference in mortality -12.8% in the plasma group and 24.4% in the control group -was not statistically significant, but when the team compared the patients' supplemental oxygen needs after transfusion, those on plasma did significantly better.
+血浆组死亡率为-12.8％，对照组为24.4％，差异无统计学意义，但当研究小组比较了患者输血后的补充氧气需求量时，血浆组的状况明显好于对照组。
+
+The matched-control design can lead to biases, Bouvier concedes, but "at least we showed that there is some benefit to convalescent plasma."
+Bouvier承认，匹配控制的设计可能会导致偏差，但是“至少我们证明了恢复性血浆有一些好处”。
+
+The same researchers are already working on a study looking at data from about 275 treated patients, she says.
+她说，这些研究人员已经在进行一项研究，研究了大约275名接受治疗的患者的数据。
+
+Part Six:
+Nahid Bhadelia, an infectious disease physician at Boston University, agrees the data so far are promising, but says only an RCT can give a final answer.
+波士顿大学（Boston University）传染病医师纳希德·巴德里亚（Nahid Bhadelia）同意迄今为止的数据是有希望的，但他说只有RCT才能给出最终答案。
+
+"We clearly need rigorous clinical trials," concurs Klaus Cichutek, head of the Paul Ehrlich Institue, the regulatory agency in charge of blood products in Germany. 
+“我们显然需要严格的临床试验，”德国血液制品监管机构Paul Ehrlich Institute负责人Klaus Cichutek表示赞同。
+
+Such trials are now underway in Germany, the United Kingdom, and the United States;results are expected in the months ahead.
+目前在德国，英国和美国正在进行此类试验；预计在未来的几个月中将获得结果。
+
+
+Part Seven:
+Researchers have already collected more data on complications, and they seem to rare. 
+研究人员已经收集了有关并发症的更多数据，而且似乎很少。
+
+A U.S. paper looking only at the therapy's safety in the first 5000 patients found 36 severe adverse events, including TRALI and TACO cases, but some may have been the result of COVID-19 itself. 
+一份仅关注前5000名患者安全性的美国论文发现了36例严重不良事件，包括TRALI和TACO病例，但有些可能是COVID-19本身的结果。
+
+Only two events were "definitely related" to the transfusion, according to the treating physician;
+据主治医生说，只有两个事件与输血“绝对相关”。
+
+23 others were seemed "possibly" or "probably" related.
+另外23个似乎“可能”或“可能”相关。
+
+"I wouldn't say the [safety] concerns have been put to rest, but they have been put to rest, but they have been given a nap," says one of the authors, Michael Joyner of the Mayo Clinic.
+其中一位作者，梅奥诊所的迈克尔·乔伊纳说：“我不会说[安全]问题已得到解决，但已得到解决，但已经小睡了。”
+
+
+Part Eight:
+Convalescent serum could also help prevent infection in those at high risk.
+恢复期血清也可以帮助预防高危人群的感染。
+
+In a trial coordinated by Johns Hopkins, 150 health care workers exposed to COVID-19 while not wearing proper protection will receive either convalescent serum or serum collected last year.
+在约翰霍普金斯大学（Johns opkins）协调的一项试验中，有150名暴露于COVID-19且没有适当保护的医护人员将接受恢复期血清或去年收集的血清。
+
+
+Researchers will compare how many people in each group develop disease.
+研究人员将比较每组中有多少人患病。
+
+Part Nine:
+If convalescent plasma is shown to work, much more of it may be needed, and supply could become a challenge, Bhadelia says.
+
+One plasma donation--the volume depends on the donor's weight but it's usually between 690 and 880 milliliters in the United States--is enough for just one or two patients, and the donor's blood type needs to match the recipient's. But recovered patients might be able to donate plasma multiple times. 
+一次血浆捐赠-体积取决于捐赠者的体重，但在美国通常为690至880毫升-仅够一两个患者，并且捐赠者的血型需要与接受者的相匹配。 但是康复的患者可能能够多次捐献血浆。
+
+
+In New York City, there is now more than enough to go around, in part because thousands of members of the hard-hit Orthodox Jewish community have donated.
+在纽约市，现在有足够的活动余地，部分原因是受重灾的东正教犹太人社区的数千名会员捐款。
+
+Part Ten:
+Consistency is also an issue.
+一致性也是一个问题。
+
+The mix and concentration of antibodies differs from one donor to the next, which "is one of the unfortunate reasons why the clinical evidence generated around convalescent plasma has remained rather shallow,"
+抗体的混合和浓度在一个供体之间是不同的，“这是康复期血浆产生的临床证据仍然很浅的不幸原因之一”
+
+says Thomas Kreil, head of pathogen safety at Japanese with several partners, Takeda is working to produce a product called hyperimmune globulin, for which the blood of hundreds of recovered patients is pooled and the antibodies concentrated about 10-fold.
+日本的病原体安全负责人Thomas Kreil与几个合作伙伴说，武田正在努力生产一种名为超免疫球蛋白的产品，该产品汇集了数百名康复患者的血液，抗体浓缩了约10倍。
+
+Hyperimmune globulin has a longer shelf life than plasma, and its higher concentration would allow doctors to give more antibodies to patients without the risk of TACO. An efficacy trial, funded by the U.S. National Institutes of Health, could start this summer.
+高免疫球蛋白的保质期比血浆更长，其高浓度可使医生为患者提供更多抗体而无TACO风险。 由美国国立卫生研究院资助的功效试验将于今年夏天开始。
+
+The last time Takeda produced hyperimmune globulin was for the 2009 H1N1 influenza pandemic.
+武田上一次生产超免疫球蛋白是在2009年H1N1流感大流行中。
+
+The company concentrated antibodies from 16,000 liters of convalescent plasma, yielding enough product to treat thousands of patients. 
+该公司从16,000升恢复期血浆中浓缩抗体，从而生产出足以治疗数千名患者的产品。
+
+But the flu strain proved milder than anticipated and the treatment was never used.
+但事实证明，流感毒株比预期的要轻，并且从未使用过这种治疗方法。
+
+Survivor antibodies will probably have a bigger role this time, Bouvier says.
+Bouvier说，这次幸存者抗体可能会发挥更大的作用。
+
+"My suspicion is that hyperimmune globulin can be prepared and manufactured before we'll have a viable vaccine."
+“我估计高免疫球蛋白可以在我们得到可行的疫苗之前进行制备和生产。”
+
+More from News 
+Yemen was facing the world's worst humanitarian crisis. Then the coronavirus hit.
+也门正面临着世界上最严重的人道主义危机。 然后，冠状病毒感染。
+
+As India's lockdown ends, exodus from cities risks spreading COVID-19 far and wide.
+随着印度的封锁期结束，从城市外逃有可能造成COVID-19在更大范围的传播风险。
+
+Merck, one of Big Pharma's biggest players, reveals its COVID-19 vaccine and therapy plans.
+大型制药公司最大的参与者之一的默克（Merck）透露了其COVID-19疫苗和治疗计划。
+
+End Saying:
+Science's extensive COVID-19 coverage is free to all readers.To support out nonprofit science journalism, please make a tax-deductible gift today.
+《科学》杂志对COVID-19的广泛报道对所有读者都是免费的。请捐赠可抵税的礼物，来支持非营利性科学新闻业。
+
+git hub Personal access tokens:
+60595dca9404cec5f3858108c93a63f01450540e
