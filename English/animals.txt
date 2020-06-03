@@ -1,0 +1,168 @@
+子鼠、mouse
+丑牛、cattle
+寅虎、tiger
+卯兔、rabbit
+辰龙、Dragon
+巳蛇、snake
+午马、horse
+未羊、sheep
+申猴、monkey
+酉鸡、chicken
+戌狗、dog
+亥猪、pig
+
+
+ant             蚂蚁
+antilope        羚羊
+donkey          驴
+badger          獾
+bald eagle      白头鹰
+bat             蝙蝠
+bear            熊
+bedbug, bug     臭虫
+bee, honeybees  蜜蜂
+beetle          甲虫, 金龟子
+beatle          甲壳虫
+crow            乌鸫
+buffalo         水牛
+bull, ox        雄牛
+bullfrog        牛蛙
+bumble bee      大黄蜂
+butterfly       蝴蝶
+calf            小牛, 牛犊
+calf( pl. calves) 年幼的牛
+camel           骆驼
+canary          金丝雀
+cat             猫
+
+caterpillar     毛虫
+cattle          牛
+centipede       蜈蚣
+chick           小鸡
+chicken         鸡, 雏鸡
+chimpanzee      黑猩猩
+
+gorilla         大猩猩
+cicada          蝉
+clam            蚌
+cobra           眼镜蛇
+cod             鳕鱼
+foal            马驹,小马
+condor          秃鹰
+cow             雌牛, 母牛
+crab            蟹
+crayfish        小龙虾
+cricket         蟋蟀
+crocodile       鳄鱼, 非洲鳄
+cuckoo          杜鹃,布谷鸟
+cuttloefish     乌贼
+deer            鹿
+dog             狗
+dolphin         河豚
+dove            鸽
+dragonfly       蜻蜓
+duck            鸭
+platypus        鸭嘴兽
+eagle           鹰
+eel             鳗鱼
+elephant        象
+flea            跳蚤
+fly             苍蝇
+fox             狐狸
+frog            青蛙
+wild goose      雁
+giant salamander 娃娃鱼
+gibbon          长臂猿
+giraffe         长颈鹿
+firefly         萤火虫
+goat            山羊
+goose           鹅
+gosling         幼鹅
+
+grasshopper     蚱蜢
+seagull         海鸥
+hare            野兔
+hedgehog        刺猬
+hen             母鸡
+hippo           河马
+horse           马
+kangaroo        袋鼠
+kid             年幼的山羊
+kitten          小猫
+kitten, kitty   小猫
+koala           考拉, 树袋熊
+lamb            羊羔,羔羊
+large prawn     大对虾
+lark            百鸟,云雀
+leopard         豹
+lion            狮
+lizard          蜥蜴
+lobster         龙虾
+louse           虱子
+magpie          喜鹊
+
+mare            母马
+marmot          土拨鼠
+mole            鼹鼠
+monkey          猴子
+mosquito        蚊
+moth            蛾
+mouse           家鼠
+mule            骡
+octopus         章鱼
+ostrich         鸵鸟
+otter           水獭
+owl             猫头鹰
+ox              牛
+oyster          牡蛎
+parrot          鹦鹉
+penguin         企鹅
+perch           鲈鱼
+pig             猪
+pigeon          鸽子
+prawn           虾
+praying mantis  螳螂
+
+python          蟒蛇
+quail           鹌鹑
+rabbit          兔子
+rat             鼠
+rattlesnake     响尾蛇
+reindeer        驯鹿
+rhinoceros      犀牛
+salmon          鲑鱼
+sardine         沙丁鱼
+scallop         扇贝
+scorpion        蝎子
+sea horse       海马
+sea turtle      海龟
+seal            海豹
+shark           鲨鱼
+sheep           绵羊
+shrimp          对虾
+snail           蜗牛
+snake           蛇
+sparrow         麻雀
+spider          蜘蛛
+
+
+squid           鱿鱼
+squirrel        松鼠
+starling        八哥
+swallow         燕子
+swan            天鹅
+thrush          画眉
+tiger           虎
+toad            蟾蜍
+tuna            金枪鱼
+turkey          火鸡
+turtle          龟
+wasp            黄蜂
+water buffalo   水牛
+weasel          黄鼠狼
+whale           鲸
+white ant       白蚁
+wolf            狼
+woodpecker      啄木鸟
+yak             牦牛
+zebra           斑马
