@@ -6,12 +6,11 @@ GOLDEN SENTENCE:
     It's believed that the cycle helps round out your sense of smell.
 
 WORD:
-
     nostril     n.鼻孔
+    nasal       adj.鼻的，鼻音的； n.鼻骨，鼻音，鼻音字
     aptly       adv.适当地；适宜地；巧妙地
     automate    adj.机械化的；自动化的
     autonomic   adj.自主的；自律的
-    nasal       adj.鼻的，鼻音的； n.鼻骨，鼻音，鼻音字
     operate     v.运作，运转
     effectively adv.有效地
     clogged     adj.塞满的
@@ -52,9 +51,8 @@ PHRASE:
 
 
 PROPER NOUN:
-
     US National Library of Medicine  美国国家医学图书馆
-    MentalFloss
+    MentalFloss                         牙线
 
 TEXT:
     Through you may not pay attention to it unless you're sick, you're always breathing more heavily from one nostril than the other.
