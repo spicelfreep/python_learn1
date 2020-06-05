@@ -19,6 +19,17 @@ WORD:
     tissue      n.面巾纸，（动植物的）组织，纱布
     congestion  n.充血
     round       n.圆；轮回
+    detect      v.检测
+    slightly    adv.轻微地
+    constant    持续不断的；始终如一的
+    stream      n.小河，溪流，一股，一串；v.流（出），涌（出）；按能力分班（或分组）
+    contaminant n.污染物
+    unbearable  adj.无法忍受的
+    Basically   adv.基本上
+    properly    adv.适当地；正确地；恰当地；得体地；完全
+    amplified   adj.放大了的
+    onslaught   n.猛攻
+
 
 
 PHRASE:
@@ -30,11 +41,20 @@ PHRASE:
     clog up             堵塞
     in order to         为了
     round out           完成
+    pick up             捡起来；收集起来
+    be detected better with 被更好的发现
+    give ... a break    使...休息一下
+    a stream of         一股...                       a constant stream of    持续不断的一股...
+    kill off            毁灭；消除；耗尽；去掉
+    protect sb from sth
+    onslaught of        ...的猛攻
+
 
 
 PROPER NOUN:
 
     US National Library of Medicine  美国国家医学图书馆
+    MentalFloss
 
 TEXT:
     Through you may not pay attention to it unless you're sick, you're always breathing more heavily from one nostril than the other.
@@ -52,8 +72,23 @@ TEXT:
 
 
     "increased blood flow causes congestion in one nostril for about 3 to 6 hours before switching to the other side. There is also increased congestion when one is lying down, which can be especially
-    noticeable when the head is turned to one side," Jennifer Shu reports for CNN.
+noticeable when the head is turned to one side," Jennifer Shu reports for CNN.
 
     It's believed that this cycle helps round out your sense of small.
 
-    As Matt So
+    As Matt Soniak reports for MentalFloss, some smells are better picked up by fast moving air through your nose, while others take more time and are detected better with slow-moving air.
+
+
+    If one side of your nose is wide open and the other is slightly closed,you get all of the smells.
+
+    *The process also gives each side of your nose a break,since a constant stream of heavily flowing air can dry it out and kill off the small hairs that protect you from foreign contaminants.
+
+    *When you get sick, the whole process can become unbearable, because the one nostril that is effectively 'turned off' feels way, way more clogged than the other, Soniak says.
+    当你生病的时候，这一进程将变得无法忍受，因为一个鼻孔“关闭”了有效的感觉方式,另外一个鼻孔就感觉越阻塞。
+
+
+    Basically, the clogged-up feeling is just amplified by the cold.
+
+    So the next time you feel like you're only breathing from one side of your nose.
+
+    remember that it's a natural, automatic system working to keep you smelling properly,and to make sure your nose doesn't get dried out by a constant onslaught of dirty air.
