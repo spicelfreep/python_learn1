@@ -16,7 +16,7 @@ swift   迅捷，迅速
 
 
 sweep   清理
-
+steep   在...悬崖陡峭
 
 sneak   潜行
 snake   蛇
@@ -106,5 +106,34 @@ hypocritical    虚伪
 hypocrite        伪君子
 hypocrites       伪君子
 
+hygiene         卫生
+hydrogen        氢；氢气
+
 
 nigger          黑鬼
+
+
+tour            旅行
+tower           塔
+
+abide       遵守；忍受；居住
+abode       n.住处，住所             == dwelling
+aside       在...旁边
+
+insurrection
+in 表强调
+surrect     浪潮
+
+
+
+loyal   忠诚的
+royal   皇家的
+
+
+
+assist      vn.帮助       <=> resist
+assess      v.识别
+assert      v.断言；肯定的说；坚持；维护
+resist      v.抗拒；抵抗
+insist      v.坚持认为
+
