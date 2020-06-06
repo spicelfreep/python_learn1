@@ -1,73 +1,87 @@
-package 包裹
-packet  小包
+package 	包裹
+packet  	小包
 
-gum     口香糖      短而快且重
-gun     枪         长而慢且轻
-
-
-origin      起源地
-original    起源
-originate   v. 起源  开创
-
-sift    筛
-shift   换挡、改换、替换、 n.轮值 v. 移动
-swift   迅捷，迅速
+gum     	口香糖      短而快且重
+gun     	枪         长而慢且轻
 
 
+origin      	n.起源地
+original    	adj.起源
+originate   	v. 起源  开创
 
-sweep   清理
-steep   在...悬崖陡峭
-
-sneak   潜行
-snake   蛇
-
-notice      注意
-noticeable  明显的，显而易见的，显著
-
-due     把......归功于                  多值人
-undue   过分的，不值当的，过度的，尚未到期的
-induce  引导，劝导，诱导
-endure  忍受；持久；持续；容忍
-
-boast   v. 吹嘘   n.感到骄傲的事。
-coast   n. 海岸，湖岸            v. 一帆风顺，沿海航行
-roast   v. 烤，炙，烘；挖苦；     adj.烤的，烘的
-roost   n. 鸟窝，巢穴，栖木      vi. 栖息
-toast   n. 敬酒；烤面包，吐司     v. 为......祝酒；烤；烘
-breast  n. 胸膛，乳房；胸脯肉    v. 挺胸穿过
+ sift    	v.筛
+shift   	v.换挡、改换、替换、 n.轮值 v. 移动
+swift   	adj.迅捷，迅速
+theft		n.偷盗窃，失窃
 
 
-own     v. 把......归于;   欠钱          多指的物品
+
+sweep   	v.清理
+steer   	v.驾驶，操纵，掌舵，引导	n.公牛，食用牛
+steep   	v.沉浸于...; adj.陡峭的 
+sheer		adj.陡峭的；纯粹的；v.急
+sheep		n.羊
+creep		v.爬行；潜入
+
+sneak   	潜行
+snake   	蛇
+
+notice      	注意
+noticeable  	明显的，显而易见的，显著
+
+cue 		n.提示；暗号；球杆；  v.给...提示
+due     	v.把......归功于                  多值人
+sue		v.控诉
+hut		n.小屋
+hum		v.发出嗡嗡声，哼；n.轰鸣声，嗡嗡营营声
+
+rug		n.（小）地毯；围毯；男子假发
+mug		n.（有柄）大杯；嘴脸；v.对...行抢劫
+mute		v.减小声音
+
+undue   	过分的，不值当的，过度的，尚未到期的
+induce  	引导，劝导，诱导
+endure  	忍受；持久；持续；容忍
+
+boast   	v. 吹嘘   n.感到骄傲的事。
+coast   	n. 海岸，湖岸            v. 一帆风顺，沿海航行
+roast   	v. 烤，炙，烘；挖苦；     adj.烤的，烘的
+roost   	n. 鸟窝，巢穴，栖木      vi. 栖息
+toast   	n. 敬酒；烤面包，吐司     v. 为......祝酒；烤；烘
+breast  	n. 胸膛，乳房；胸脯肉    v. 挺胸穿过
+
+
+own     	v. 把......归于;   欠钱          多指的物品
     As a verb owe is to be under an obligation to give something back to someone or to perform some action for someone.
     As an adjective due is owed or owing.
     As an adverb due is (used with compass directions) directly; exactly.
     As a noun due is deserved acknowledgment.
 
-overtake    超过；赶上(物理距离上)   eg：超车
-catch       坚持下去(抽象)           eg：学习成绩
+overtake    	超过；赶上(物理距离上)   eg：超车
+catch       	坚持下去(抽象)           eg：学习成绩
 
 
 
 
-hetero  不同
-gene    种类
+hetero  	不同
+gene    	种类
 ous
 heterogeneous   异类的，各式各样的
 
-bacon   培根；咸猪肉
+bacon   	培根；咸猪肉
 
-preferable  adj.更好地;更适合的;更可取的
+preferable  	adj.更好地;更适合的;更可取的
 
-premise     v.假定； n. 前提；房屋地基
-promise     v.承诺； n. 诺言
+premise     	v.假定； n. 前提；房屋地基
+promise     	v.承诺； n. 诺言
 
-pre     预先  （已经，提前）
-mise    送，放出
+pre     	预先  （已经，提前）
+mise    	送，放出
 
-pro     预先  （将来兑现）
-mise    送，放出
+pro     	预先  （将来兑现）
+mise    	送，放出
 
-clutch  紧紧握住, v,n
+clutch  	紧紧握住, v,n
 
 
 crutch  hutch   dutch   glitch  catch   抓住
@@ -75,9 +89,9 @@ crutch  hutch   dutch   glitch  catch   抓住
 
 handwriting     书写体；字迹
 
-obvious     暴露在外的
-evidently   证据确凿的
-noticeable  引人遐想的
+obvious     	暴露在外的
+evidently   	证据确凿的
+noticeable  	引人遐想的
 
 oblige          迫使，使感激，施恩于，帮忙，使成为必要
 obliged         感激的；义不容辞的
@@ -86,10 +100,10 @@ obligated       有义务的；责无旁贷的
 obligation      义务
 
 hy
-hypothesis  n.假说
-    pothery 烦恼
-hypo    下面，此等
-thesis  论文
+hypothesis  	n.假说
+    pothery 	烦恼
+hypo    	下面，此等
+thesis  	论文
 hypothesis
 hypothecate
 hyper           超
@@ -103,8 +117,8 @@ hypothetical        假想
 
 hypocrisy       虚伪的
 hypocritical    虚伪
-hypocrite        伪君子
-hypocrites       伪君子
+hypocrite       伪君子
+hypocrites      伪君子
 
 hygiene         卫生
 hydrogen        氢；氢气
@@ -116,24 +130,160 @@ nigger          黑鬼
 tour            旅行
 tower           塔
 
-abide       遵守；忍受；居住
-abode       n.住处，住所             == dwelling
-aside       在...旁边
+abide       	遵守；忍受；居住
+abode       	n.住处，住所             == dwelling
+aside       	在...旁边
 
 insurrection
 in 表强调
-surrect     浪潮
+surrect     	浪潮
 
 
 
-loyal   忠诚的
-royal   皇家的
+loyal   	忠诚的
+royal   	皇家的
+
+-sist
+assist      	vn.帮助       <=> resist
+resist      	v.抗拒；抵抗
+insist      	v.坚持认为
+
+ass-
+assess      	v.识别
+assert      	v.断言；肯定的说；坚持；维护
+asset	    	n.资产，财产，有价值的东西或人
 
 
+-claim
+reclaim		v.开拓，开垦；感化；取回；改造
+proclaim	v.申明，声称；宣告；表明
 
-assist      vn.帮助       <=> resist
-assess      v.识别
-assert      v.断言；肯定的说；坚持；维护
-resist      v.抗拒；抵抗
-insist      v.坚持认为
 
+passage 	n.通道，走廊；（法案的）通过；段落；推移；旅程
+message		n.消息
+
+word		n.单词
+cord		n.细绳，索，（电工学）电绳
+sword		n.宝剑
+
+
+stationery	n.文具；（有配套信封的）信纸
+stationary	adj.静止的
+
+
+swing		v.摇摆
+cling		v.紧紧抓住，依恋
+daring		n.大胆
+drawing		n.绘画，绘图
+
+patriot		n.爱国者
+mariot		n.磁铁
+
+riddle		n.谜，谜语；v.解谜，出谜
+peddle		v.兜售
+
+pebble		n.鹅卵石
+cobble		n.鹅卵石
+
+
+-pend
+expend
+
+-tend
+pertend
+
+-tent
+potential
+
+
+mass		n.一团；众多，大多数 ；物质
+mess		adj.凌乱的
+
+
+nest		n.巢
+next		下一个
+
+stich		绣
+
+switch		开关
+ ditch		n.沟渠，沟   v.迫降海上	 vt.丢弃；旷课
+ witch		n.女巫
+
+
+foam		泡沫
+poem
+
+firm		adj.坚定
+film		电影
+
+peck		n.啄，轻吻
+pack		n.包
+pact		n.合同，协约
+peak		n.顶端  summit	n.山顶，顶点；（政府间的）峰会
+rack		n.挂架
+brick		n.砖
+prick		n.扎，刺，刺痛，锥，阴茎
+rock		n
+
+tow		v.拖拉，牵引
+row
+raw
+
+canal		运河
+canoe		n.独木舟
+
+
+crown		n.王冠，冕；王权；花冠； v.加冕
+crowd		n.人群
+
+breeze		n.微风
+squeeze		v.挤
+Greece		n.希腊
+
+--ress
+depress		n.压下；压低；使沮丧；使萧条
+distress	n.悲伤
+
+
+immense		adj.巨大的，广大的
+immune		adj.免疫的，有免疫力的；不受影响的
+
+utter		v.发射
+scatter		v.（使）分散，撒开，散播
+
+--mpt
+prompt		激起，提醒
+attempt		n.尝试，企图 v.努力去做
+
+
+streathen	v.使...强壮
+threaten	vt.威胁
+
+cat
+car
+cart		n.小推车
+crane		n.起重机
+
+host
+hoist		v.升起，吊起
+
+arc		n.弧
+acre		n.英亩
+
+ticket		n.票
+cricket		n.蟋蟀，板球，板球运动
+
+flatten
+flat
+
+liberty		自由
+liberal		自由的 开明的
+
+rate
+ratio		比例
+radio		n.无线电
+radium		n.镭
+
+
+deceive		v.欺骗  == cheat
+device		n.设备

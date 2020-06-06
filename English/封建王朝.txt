@@ -1,6 +1,34 @@
-submissive   adj.顺从的；唯命是从的；谦恭的；
-royal        adj.皇家的
-Honorable    adj.尊贵的
-monarch      n.君主；帝王；统治者
-monarchy     adj.君主；最高统治者；君主政体；君主国
-monarchic    adj.君主的；君主政体的
+imperial	adj.帝王的，壮丽的，至尊的	n.帝国，皇家
+submissive   	adj.顺从的；唯命是从的；谦恭的；
+royal        	adj.皇家的
+loyal   	adj.忠诚的
+faithful	adj.忠诚的；如实的；	n.信徒
+Honorable    	adj.尊贵的
+monarchy     	adj.君主；最高统治者；君主政体；君主国
+monarchic    	adj.君主的；君主政体的
+noble		adj.高尚的；贵族的；高贵的
+invinciable	adj.无敌的；不能够征服的
+colonial	adj.殖民地的，关于殖民的；n.殖民地居民
+distinguished	adj.高贵的；著名的，卓著的
+
+monarch      	n.君主；帝王；统治者
+chariot		n.古代双轮马拉战车
+majesty		n.最高权威；雄伟；壮丽；帝王；王权；
+prestige	n.威望
+dignity		n.威严，威风；端庄；尊严，高贵
+bronze		n.青铜器，青铜，青铜色
+saddle		n.鞍；鞍部	v.给马装鞍具
+chronicle	n.编年史，年代记，记录； v.记录
+battalion	n.营，军营；军队，部队
+colony		n.殖民地；桥局地；群体；菌落
+compliment	n.恭维，问候；	v.
+crown		n.王冠，冕；王权；花冠； v.加冕
+
+
+
+conquer		v.征服，攻克；破除
+dispatch	v.派遣，调遣，发送（信件，电报等）
+spur		v.策马，用踢马刺驱马前进；激励
+obey		v.服从，听从，遵从；顺从，听从摆布
+compliment	v.赞美，祝贺
+

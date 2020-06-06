@@ -1,0 +1,106 @@
+methodology	n.方法论，方法学；（某一学科的）一套方法
+
+psychology	n.心理学；心理状态；心理
+anatomy		n.解剖学；人体；解剖
+mechanics	n.力学；机械学；技巧
+statistics	n.统计；统计数字，数据；统计学
+chemistry	n.化学
+philosophy	n.哲学
+pharmacy	n.药剂学；药房；配药业，制药业
+aeronautics	n.航空学 adj.航空学的
+
+literary	adj.文学的，文学上的；精通文学的
+geographical	adj.地理的，地理学的
+electronic	adj.电子的，电子学的
+
+
+sculpture	n.雕刻艺术；雕刻，雕像
+atchitecture	n.建筑物；建筑学，建筑体
+
+surgery		n.外科手术；外科
+ray		n.射线；光线
+
+
+intellectual	n.知识分子
+academician	n.院士；大学生
+psychiatrist	n.精神病医生；精神病专家
+dean		n.（大学的）学院院长
+diploma		n.毕业文凭，毕业证书；文凭课程
+autobiography	n.自传；自传文学
+encyclopaedia	n.百科全书
+theis		n.（学位）论文，论题，论点
+hypotheis	n.假说
+fable		n.寓言；童话；无稽之谈 	v.虚构
+intelligence	n.智力；情报；理解力
+
+
+
+
+explosion	n.爆炸；爆发；激增
+reproduction	n.复制；繁殖；复制品；再现
+patient		n.病人
+meditation	n.沉思，冥想
+ampere		n.安培
+voltage		n.电压
+quart		n.夸脱
+gallon		n.加仑
+acre		n.英亩
+multiplication	n.乘法
+oxgen		n.氧气
+hydrogen	n.氢气
+mercury		n.水银，汞；水星（Mercury）
+carbohydrate	n.碳水化合物；淀粉质食物
+cholesterol	n.胆固醇
+organism	n.生物，有机体；有机的组织
+yeast		n.酵母，发酵物；兴奋
+receptor	n.感受器；感觉器官；受体；接收器
+limestone	n.【地质学】石灰岩；石灰石
+aptitude	n.天资；自然倾向；适宜
+surrounding	n.周围的环境，环境
+transistor	n.晶体管；半导体收音机
+semiconductor	n.半导体
+periodical	n.期刊；杂志
+continent	n.大陆，洲； 	adj.克制的，禁欲的
+grid		n.格子，地图坐标
+proton		n.质子
+atom		n.原子
+radium		n.镭
+
+
+perpendicular	adj.成直角的，垂直的；直立的	n.垂直线
+
+思维-气质-文艺
+scholarly	adj.学者气息的，学者风度的，学术的
+orginal		adj 有独创性的 原始的 最初的
+critical	adj.批评的；文艺评论的；爱挑剔的；
+influential	adj.有影响力的，有影响的
+systematic	adj.有系统的，系统化的，有条理的
+
+
+天文-物理
+solar		adj.太阳的；太阳系的；日光的；n.日光浴室
+lunar		adj.月亮的
+atmospheric	adj.大气的，大气层的
+tropical	adj.热带的
+metallic	adj.金属的；金属般的
+instantaneous	adj.瞬间的；即刻的；猝发的
+radioactive	adj.有放射性的
+virtual		adj.（计算机）虚拟的；十分接近的
+
+生物-环境
+spinal		adj.脊柱的；脊髓的；
+lunatic		adj.精神错乱的
+immune		adj.免疫的，有免疫力的；不受影响的
+genetic		adj.遗传的，起源的
+
+electrical	adj.有关电的；电气科学的
+
+structural	adj.结构的，构造的，建筑的
+
+
+intellect	n.智力，理解力；非凡的才智；才华
+recollection	n.记忆力；记忆，回忆；回忆的事情
+symptom		n.症状；征兆
+
+rust		v.生锈；氧化；n.锈
+
