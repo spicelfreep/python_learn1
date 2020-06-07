@@ -8,21 +8,27 @@ chemistry	n.化学
 philosophy	n.哲学
 pharmacy	n.药剂学；药房；配药业，制药业
 aeronautics	n.航空学 adj.航空学的
-
-literary	adj.文学的，文学上的；精通文学的
-geographical	adj.地理的，地理学的
-electronic	adj.电子的，电子学的
-
+linguistics	n.语言学
+botany		n.植物学
 
 sculpture	n.雕刻艺术；雕刻，雕像
 atchitecture	n.建筑物；建筑学，建筑体
 
+literary	adj.文学的，文学上的；精通文学的
+geographical	adj.地理的，地理学的
+electronic	adj.电子的，电子学的
+linguistic	adj.语言学的
+botanical	adj.植物学的
+
+
+
 surgery		n.外科手术；外科
-ray		n.射线；光线
 
 
 intellectual	n.知识分子
 academician	n.院士；大学生
+linguist	n.语言学家		
+astronaut	n.宇航员
 psychiatrist	n.精神病医生；精神病专家
 dean		n.（大学的）学院院长
 diploma		n.毕业文凭，毕业证书；文凭课程
@@ -48,7 +54,6 @@ acre		n.英亩
 multiplication	n.乘法
 oxgen		n.氧气
 hydrogen	n.氢气
-mercury		n.水银，汞；水星（Mercury）
 carbohydrate	n.碳水化合物；淀粉质食物
 cholesterol	n.胆固醇
 organism	n.生物，有机体；有机的组织
@@ -64,7 +69,11 @@ continent	n.大陆，洲； 	adj.克制的，禁欲的
 grid		n.格子，地图坐标
 proton		n.质子
 atom		n.原子
+mercury		n.水银，汞；水星（Mercury）
+tin		n.锡		n.罐头
 radium		n.镭
+ray		n.射线；光线
+
 
 
 perpendicular	adj.成直角的，垂直的；直立的	n.垂直线

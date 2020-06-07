@@ -5,10 +5,7 @@ gum     	口香糖      短而快且重
 gun     	枪         长而慢且轻
 
 
-origin      	n.起源地
-original    	adj.起源
-originate   	v. 起源  开创
-
+--ift
  sift    	v.筛
 shift   	v.换挡、改换、替换、 n.轮值 v. 移动
 swift   	adj.迅捷，迅速
@@ -16,6 +13,7 @@ theft		n.偷盗窃，失窃
 
 
 
+ee
 sweep   	v.清理
 steer   	v.驾驶，操纵，掌舵，引导	n.公牛，食用牛
 steep   	v.沉浸于...; adj.陡峭的 
@@ -23,11 +21,9 @@ sheer		adj.陡峭的；纯粹的；v.急
 sheep		n.羊
 creep		v.爬行；潜入
 
-sneak   	潜行
+sneak   	潜行	像蛇一样行走
 snake   	蛇
 
-notice      	注意
-noticeable  	明显的，显而易见的，显著
 
 cue 		n.提示；暗号；球杆；  v.给...提示
 due     	v.把......归功于                  多值人
@@ -43,11 +39,13 @@ undue   	过分的，不值当的，过度的，尚未到期的
 induce  	引导，劝导，诱导
 endure  	忍受；持久；持续；容忍
 
-boast   	v. 吹嘘   n.感到骄傲的事。
+boast   	v. 吹嘘  n.感到骄傲的事。
 coast   	n. 海岸，湖岸            v. 一帆风顺，沿海航行
-roast   	v. 烤，炙，烘；挖苦；     adj.烤的，烘的
-roost   	n. 鸟窝，巢穴，栖木      vi. 栖息
 toast   	n. 敬酒；烤面包，吐司     v. 为......祝酒；烤；烘
+roast   	v. 烤，炙，烘；挖苦；     adj.烤的，烘的
+
+roost   	n. 鸟窝，巢穴，栖木      vi. 栖息
+
 breast  	n. 胸膛，乳房；胸脯肉    v. 挺胸穿过
 
 
@@ -154,16 +152,20 @@ assert      	v.断言；肯定的说；坚持；维护
 asset	    	n.资产，财产，有价值的东西或人
 
 
--claim
-reclaim		v.开拓，开垦；感化；取回；改造
-proclaim	v.申明，声称；宣告；表明
+---claim		v.要求，声称，宣称，自称，认领，声言，硬说。n. 要求，主张，应用
+ acclaim	v.欢呼，赞扬，称赞；v.欢呼，喝彩 （加强+宣称）为人
+ reclaim	v.开拓，开垦；感化；取回；改造	 （一再+声称：喊口号）
+ declaim	v.高谈阔论，雄辩，大声说	 （加强+宣称）为己
+ exclaim	v.呼叫，惊叫			（前面的+声言）无意识的发声
+proclaim	v.申明/公布，声称；宣告；表明	（专业的+宣称）
 
 
 passage 	n.通道，走廊；（法案的）通过；段落；推移；旅程
 message		n.消息
+massage		n.将大块的肉拉起来 ->按摩	
 
-word		n.单词
-cord		n.细绳，索，（电工学）电绳
+ word		n.单词
+ cord		n.细绳，索，（电工学）电绳
 sword		n.宝剑
 
 
@@ -172,6 +174,8 @@ stationary	adj.静止的
 
 
 swing		v.摇摆
+sting		v.叮，咬，蛰		n
+ ling		n.林
 cling		v.紧紧抓住，依恋
 daring		n.大胆
 drawing		n.绘画，绘图
@@ -196,8 +200,12 @@ pertend
 potential
 
 
+make
 mass		n.一团；众多，大多数 ；物质
+massive		adj.大块的，巨大的
+miss		v.想念
 mess		adj.凌乱的
+
 
 
 nest		n.巢
@@ -241,7 +249,7 @@ squeeze		v.挤
 Greece		n.希腊
 
 --ress
-depress		n.压下；压低；使沮丧；使萧条
+ depress	n.压下；压低；使沮丧；使萧条
 distress	n.悲伤
 
 
@@ -287,3 +295,29 @@ radium		n.镭
 
 deceive		v.欺骗  == cheat
 device		n.设备
+
+proper		adj.适合的，适用的
+ paper
+
+
+secure		v.使安全
+secute		v.使不安全
+
+restrant
+resurect
+
+
+sense		n.感觉
+mense		n.测量
+
+ extinguish	v.熄灭；压制；偿清
+distinguish	v.区分
+
+ volition	n.决定，自主
+ vocation	n.职业；行业；天职；使命
+evolution	n.进化，演变
+evaluation	n.评估，评价
+valuation	n.评估，评价，鉴定
+violation	n.违反，违背
+
+
