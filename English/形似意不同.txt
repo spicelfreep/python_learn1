@@ -270,6 +270,7 @@ threaten	vt.威胁
 cat
 car
 cart		n.小推车
+carpet      n.地毯
 crane		n.起重机
 
 host
@@ -321,3 +322,9 @@ valuation	n.评估，评价，鉴定
 violation	n.违反，违背
 
 
+price   钱
+prize   奖
+
+
+mist        薄伍，朦胧
+emission    排出物,放射物

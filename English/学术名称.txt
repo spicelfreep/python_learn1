@@ -62,6 +62,7 @@ receptor	n.感受器；感觉器官；受体；接收器
 limestone	n.【地质学】石灰岩；石灰石
 aptitude	n.天资；自然倾向；适宜
 surrounding	n.周围的环境，环境
+solid       n.固体，adj.结实的
 transistor	n.晶体管；半导体收音机
 semiconductor	n.半导体
 periodical	n.期刊；杂志
@@ -73,6 +74,7 @@ mercury		n.水银，汞；水星（Mercury）
 tin		n.锡		n.罐头
 radium		n.镭
 ray		n.射线；光线
+notation        n.标记法
 
 
 
@@ -113,3 +115,6 @@ symptom		n.症状；征兆
 
 rust		v.生锈；氧化；n.锈
 
+
+adv
+experimentally      用实验方法地  experiment          实验

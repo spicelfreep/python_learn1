@@ -23,6 +23,10 @@ battalion	n.营，军营；军队，部队
 colony		n.殖民地；桥局地；群体；菌落
 compliment	n.恭维，问候；	v.
 crown		n.王冠，冕；王权；花冠； v.加冕
+troop       n.部队；群；v.集群，集合
+comb        n.墓穴
+imperialism n.帝国主义
+empire      n.疆域
 
 
 

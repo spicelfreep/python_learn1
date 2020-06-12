@@ -1,18 +1,23 @@
 
-pref	
+pref
 -ate		形容词后缀
 -age		行为或行为的结果
+-ent		具有...性质的
 
+en-      太，更加
 con-		n.和,共,全
 op-		n.工作，操作
 opt-		v.选择
 de-		加强
 re-		一再
 ac-		加强（多倾向于他人）
+af-		加强
+ef-		出
 pro-		专业的，赞成的
 pre-		预先
 per-		每次
 im-		不
+
 
 tran-
 前缀trans有两个意思：
@@ -212,3 +217,135 @@ density		n.密集；密度
 drain		v.排空；（使）流光；放干；（使）流干；流出；喝光；喝干		n.下水道；排水道；下水道孔盖；消耗；耗费
 age		行为或行为的结果
 drainage	n.排水系统
+
+
+fect        v.做，制作
+rect        v.指领
+
+affect      加强制作->缺点，缺陷
+effect      做出->效果
+defect      没做好->缺点，缺陷
+
+ erect      向上+指领-> v.搭建，竖起；建造，建立；adj.直立的，垂直的
+
+橱，内阁
+ca bi net
+
+遗迹，（生）退化的器官，残余，微量（一般用于否定句）
+ves ti ge
+
+读写能力；识字；有文化；教养
+lit er acy
+
+文字，字母
+lit er
+
+专业从事
+specialize
+
+dict        说话，断言
+dict ate    口授
+
+共同+伤害
+con demn a tion         谴责
+
+圆形 + 里面 + 的
+cyl in der
+
+共同参与+创建
+con crete(create)       n..混凝土, adj 具体的，实质性的
+
+craft
+
+create fly at           创造了一个飞行器->航天器（手工制作）
+c r a f t
+
+as sess             (再一次)（开会）评估
+as sess ment
+
+irritation          刺激
+
+盒式录像带
+cas set te
+
+    deavor          迷恋
+en deavour          很迷恋的（女孩）->尝试，努力（追求）
+at tempt
+
+
+sali                跳
+ent
+具有跳跃的性质         显著的，突出的
+
+drawn           画
+drawing         绘画
+drawer          抽屉
+
+se(分开) greg(群体) ation
+segregation         种族隔离
+
+invade
+in vad e
+走进去
+
+de cline(climb)
+不爬了         ->  不进则退    -> 下坡 -> 下降
+
+deck(desk)      桌子没腿->好板->甲板
+
+ste ward
+stay ward
+留下保护        留护  看护   -> 管家
+stay ward ess                   女管家
+
+pension
+养老金
+
+
+split       分裂
+crack       裂缝
+breach      裂缝
+
+
+barrel      桶
+barrier     障碍
+
+cor 全
+ros 咬
+sion 了
+侵蚀
+
+
+note            v.做笔记
+notation        n.标记法
+
+eager       渴望啊
+desire      欲望啊
+
+liberty         n.自由
+liberal         n.自由派
+liberate         v.解放
+liberation         n.解放
+
+liter           n.升
+literacy        n.识字能力，识字，读写能力
+literature      n.文献
+literally       adv.字面上看
+
+tight       紧
+tighten     拉紧
+
+calculate   善于计算的
+articulate  善于表达的
+
+frantic     adj.疯狂的，狂乱的，慌乱的
+
+trip
+strip
+federal
+desire
+inspire
+resort
+
+hail
+frantic
