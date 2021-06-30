@@ -28,3 +28,70 @@ isinstance(B, list) #True
 isinstance(C, dict) #True 
 isinstance(D, float) #True 
 isinstance(E, str) #True
+
+
+
+Series.str.strip(to_strip=None)去除两边空白
+Series.str.lstrip(to_strip=None)去除左边空白
+Series.str.rstrip(to_strip=None)去除右边空白
+
+>>> '   spacious   '.strip()
+'spacious'
+>>> 'www.example.com'.strip('cmowz.')
+'example'
+
+
+python 字典key越界
+要避免 KeyError 发生，有两个办法：
+一是先判断一下 key 是否存在，用 in 操作符：
+
+if 'Paul' in d:
+    print d['Paul']
+
+如果 'Paul' 不存在，if语句判断为False，自然不会执行 print d['Paul'] ，从而避免了错误。
+
+二是使用dict本身提供的一个 get 方法，在Key不存在的时候，返回None：
+
+>>> print d.get('Bart')
+59
+>>> print d.get('Paul')
+None
+
+Python3 replace()方法
+str.replace(old, new[, max])
+
+
+Python3学习（十二）：求两个list的差集、并集与交集
+在python3对列表的处理中，会经常使用到Python求两个list的差集、交集与并集的方法。
+下面就以实例形式对此加以分析。
+
+ 
+
+一.两个list差集
+如有下面两个数组：
+a = [1,2,3]
+b = [2,3]
+
+想要的结果是[1]
+下面记录一下三种实现方式：
+
+1. 正常的方式
+ret = []
+for i in a:
+    if i not in b:
+        ret.append(i)
+
+2.简化版
+ret = [ i for i in a if i not in b ]
+
+3.高级版
+ret = list(set(a) ^ set(b))
+
+4.最终版
+print (list(set(b).difference(set(a)))) # b中有而a中没有的
+
+二.两个list并集
+print (list(set(a).union(set(b))))
+
+三.两个list交集
+print (list(set(a).intersection(set(b))))
