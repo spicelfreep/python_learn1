@@ -1,0 +1,53 @@
+GIT常用命令
+
+- # GIT代码库：https://codehub-g.huawei.com/groups/hybrid-cloud-continuous-operation/detail
+- # 添加远程仓库地址到本地仓库 ,Sets the new remote
+- $ git remote add origin {远程仓库地址}
+- # Verifies the new remote URL
+- 
+
+- $ git remote -v
+- # push到远程仓库
+- 
+
+- $ git push -u origin master
+- 
+
+- 
+
+- # 修改默认pull和push分支：
+- # origin/develop develop为要设置的默认分支
+- $ git branch --set-upstream-to=origin/develop develop
+- 
+
+- 
+
+- 
+
+- 
+
+- git log --pretty=format:"%s" --since=1.months
+- git log --pretty=format:"%cn  %cr  %cd  %s" --since=1.months | grep -v 'Merge'
+- git log --pretty=format:"%cn  %cr  %cd  %s" --since=2.months --author=helin | grep -v 'Merge'
+- git log --pretty=format:"%s" --since=2.months --author=helin | grep -v 'Merge'
+- git log --pretty=format:"%cn  %cr  %cd  %s" --since=2.months --until=1.months --author=helin | grep -v 'Merge'
+- 
+
+- git log --pretty=format:"%cn %s" --graph
+- git log --since='2021-06-06 00:00:00' --until='2021-06-12 00:00:00' --author="helin" --numstat --pretty=tformat: --no-merges |  awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines, %s, removed lines, %s, total lines, %s\n", add, subs, loc }' -;
+    - git log --pretty=format:"%cn %cr %cd %s" --since='2021-05-01 00:00:00' --until='2021-06-01 00:00:00' --author="helin" --numstat 
+- 
+
+- //默认git的日志时区是 UTC +0000
+- //中国的时区是 UTC +8000
+- git log --date=local //临时生效
+- //或者
+- git config --global log.date local //全局生效
+- //查看
+- git config --list
+- Git log修改时间格式
+- git config log.date format:'%Y-%m-%d %H:%M:%S'
+- git config --global log.date format:'%Y-%m-%d %H:%M:%S'
+- 
+
+- 
