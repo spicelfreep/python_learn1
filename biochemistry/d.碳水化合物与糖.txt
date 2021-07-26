@@ -45,15 +45,12 @@
 ●最简单的单糖是三碳糖：甘油醛（丙醛糖 Glyceraldehyde, an aldotriose）和二羟丙酮（丙酮糖 Dihydroxyacetone, a ketotriose）。
 H-C=O
 H-C-OH
-H-C-OH
-  H
-(Glyceraldehyde, an aldotriose)
-  H
-H-C-OH
+H₂C-OH
+ (Glyceraldehyde, an aldotriose)
+H₂C-OH
   C=O
-H-C-OH
-  H
-(Dihydroxyacetone, a ketotriose)
+H₂C-OH
+ (Dihydroxyacetone, a ketotriose)
 
 最常见的单糖——葡萄糖和果糖（六碳糖/己糖）
 =========================
@@ -71,3 +68,11 @@ H0-C-H
  H-C-OH
 H₂-C-OH
 （果糖 D-Fructose，a ketohexose）
+●所有的醛糖都可以看成是由甘油醛的羰基碳下端逐个插入C延伸而来组成醛糖家系；
+●由二羟丙酮的羰基碳下插入C衍生来的单糖构成酮糖家系。
+●糖的C原子编号从离羰基最近C末端开始计数。
+●单糖中连接有羟基的C多数是手性中心，可以产生很多天然存在的立体异构体。比如：已醛糖含有四个C*，已酮糖含有三个C*。
+●1891年，德国有机化学家Fischer发表有关葡萄糖立体化学的研究，论证己醛糖的16个旋光异构体中12个异构体的立体化学结构，获得1902年诺贝尔化学奖。
+◆为了在纸面上有效的表示糖的立体异构体结构，1891年Fischer首次提出Fischer投影式。投影式可以方便的表示旋光异构体，但没有透视式清楚。
+  ▷Fischer投影式：水平方向的键伸向纸面前方，垂直方向的键伸向纸面后方。糖的投影式，通常碳链处于垂直方向，羰基写在链的上端，羟甲基在链的下端，氢原子和羟基在链的两端。
+  ▷透视式：手性碳和实线处于纸面内，实锲形键突出纸面，虚锲形键伸向纸面后面。
