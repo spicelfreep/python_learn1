@@ -259,7 +259,7 @@ mRNA的结构和功能
 
 ●真核生物的mRNA，都是单顺反子mRNA（monocistronic mRNA）。
 ●真核生物mRNA有一个成熟过程。
-  从DNA转录出来形成不均一核RNA（hnRNA）含有内含子和外显子。
+  从DNA转录出来形成不均一核RNA（pre-mRNA，heterogeneous nuclear RNA, hnRNA）含有内含子和外显子。
 ●外显子是氨基酸的编码序列，而内含子是非编码序列。
 ●hnRNA经过剪切后成为成熟的mRNA。
 ●成熟真核生物mRNA一级结构的通式：
@@ -293,6 +293,7 @@ tRNA的结构与功能
 
 rRNA的结构与功能
 ●核糖体RNA（rRNA）是细胞内含量最多的RNA(>80%)。
+●RNA含量大小顺序rRNA>tRNA>mRNA。
 ●rRNA与核糖体蛋白结合组成核糖体（ribosome），是蛋白质合成的场所。
 ●核糖体大约由65%的RNA（3-4种）和35%的蛋白质（50-80种）组成。
 
