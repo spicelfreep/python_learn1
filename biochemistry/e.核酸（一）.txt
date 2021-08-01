@@ -247,9 +247,9 @@ RNA的结构
 ●细胞内的RNA种类甚多，大小和结构各不相同，比DNA更具有多样性。
 ●RNA和蛋白质一起负责基因的表达和表达过程的调控。
 ●参与蛋白质合成的RNA有三类：
+  信使RNA（messager RNA，mRNA）。
   转移RNA（transfer RAN，tRNA）；
   核糖体RNA（ribosomal RNA，rRNA）；
-  信使RNA（messager RNA，mRNA）。
 
 mRNA的结构和功能
 ==============
