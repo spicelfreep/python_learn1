@@ -18,7 +18,7 @@
 
 核酸的粘性（viscosity）
 ===============
-●DNA>RNA dsDNA > ssDNA
+●DNA>RNA dsDNA(Single-stranded DNA,双链DNA) > ssDNA(Single-stranded DNA,单链DNA)
 ●天然DNA溶解的粘度很高，但当DNA变性后粘性急剧下降。DNA粘度的改变可作为DNA变性的重要指标。
 
 核酸的溶解性
