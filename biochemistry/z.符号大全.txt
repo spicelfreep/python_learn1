@@ -19,9 +19,15 @@
 ⁻¹
 ⁻²
 ⁻³
+H⁺
 Fe²⁺
+Fe³⁺
 Cu⁺
-
+Cu²⁺
+H₂O
+CO₂
+NAD⁺
+FADH₂
 ₍₎
 ₐ
 ₑ
