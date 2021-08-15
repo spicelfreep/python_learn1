@@ -24,9 +24,11 @@ Fe²⁺
 Fe³⁺
 Cu⁺
 Cu²⁺
+Mg²⁺
 H₂O
 CO₂
 NAD⁺
+NADP⁺
 FADH₂
 ₍₎
 ₐ
