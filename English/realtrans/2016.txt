@@ -26,6 +26,12 @@ dilemma
 两难
 ideal
 理想
+------------
+
+
+
+
+
 
 Translation
 ===========
