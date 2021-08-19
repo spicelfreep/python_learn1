@@ -219,6 +219,8 @@ elevate
 notion
 
 
+2017
+~~~~
 Text1
 =====
 Word
@@ -258,3 +260,11 @@ fatal vital
 congress
 look into
 divert
+
+2018
+~~~~
+Text1
+=====
+Word
+-----
+-·-·-·
