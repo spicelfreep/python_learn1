@@ -3,8 +3,7 @@
 text1单词
 ---------------------------------------------
 obsession
-ob 表加强 + sess〔 = sit坐〕→ 坐着不走 → 迷住
-痴迷
+ob 表加强 + sess〔 = sense 感受〕→ 加强了吸引 → 迷住；痴迷
 
 urge to
 urg 表示紧急
@@ -39,10 +38,12 @@ extra + -vag- + ant
 extra + walk + adj.
 额外的 + 走 + 的 = 额外走出去的，超标的
 奢侈的
+
 vagrant
 -vag- + r + ant
 走 + 人 + 的 = 走出去的（离家出走的人）
 流浪汉
+adj游牧的；漫游的；流浪的；漂泊的；
 
 myth
 神话
@@ -53,6 +54,7 @@ scold
 sweater
 毛衣
 descend
+de + scene  -> 相反的场景
 下降
 descended
 下降
@@ -61,7 +63,7 @@ fashion shows
 department stores
 百货公司
 bargain bin
-讨价还价箱
+讨价还价市场
 garment
 服装
 top-down conception
@@ -69,24 +71,35 @@ top-down conception
 out of date
 过时的
 at odds
-不和
+不一致
+fever
+发烧；亢奋
 feverish world
 狂热的世界
 indictment
 记忆技巧：in 进入 + dict 说；断言 → 进〔法院〕讨个说法 → 起诉
-起诉
+dicta
+[ˈdɪktə] 名词复数形式 dictum的复数形式
+dicty
+[ˈdɪktɪ] adj 势利的；傲慢的；自负的；专横的
+dictum
+[ˈdɪktəm] n 正式声明；权威意见；宣言；格言；名言；箴言
 mass-market label
 大众市场标签
 trend
 趋势
 anticipate demand more precisely
 更准确地预测需求
+vent  
+孔，口；发泄；宣泄
+invent
+进入；孔->生孩子->发明
 inventory
-库存
+发明成功->成功生产，很多存量->库存
 style-conscious consumer
 注重风格的消费者
 wardrobe
-衣柜
+forward + row + be -> 衣柜
 on-trend
 趋势
 hijack
@@ -97,8 +110,15 @@ low-wage
 低工资
 order in volumes
 成册订购
+sort in volumes
+在卷中排序
+strain
+s (sound) 声音 + train 火车 -> 喧闹的火车 -> 压力
 strain natural resources
 自然资源紧张
+soundly   酣畅地 
+durable
+[ˈdjʊərəbəl] adj 耐穿的；耐用的；持久的
 non-durable
 不耐用
 excess
