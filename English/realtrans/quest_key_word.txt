@@ -527,9 +527,53 @@ Text2
 =====
 Word
 -----
-
+facilitate
+deforestation
+-
+is cited to
+cattle raising
+-
+intend to
+alleviate
+alleviation
+-
+be most valuable in
+-
+What is the text centered on?
+The effects of a program
+The debates over a program
+The process of a study
+The transferability of a study
 -----
+bleak
+-
+phase
+-
+poverty alleviation
+-
+be correlated with 
+environmental degradation
+cause
+causal
+causality
+instituted
+cleared land
+-
+Such progrom do not have to negatively affect the environment
+proverty-alleviation
+tropical 
+tropical forest
+phase-in
+-
+rural 
+rural poor
+shift
+makeshift
+makeshift insurance policies against inelement weather
 
+due to commonalities
+the importance of growing rice and market access.
+regardless of transferbility
 -----
 Answer
 -----
