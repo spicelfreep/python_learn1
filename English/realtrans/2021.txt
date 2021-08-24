@@ -50,9 +50,9 @@ nationalization
 --
 --
 Train Operators
-列车营运公司
+列车营运公司（商）
 justify
-证明正当
+证明...正当（清白）
 annual
 每年的
 ritual
@@ -65,15 +65,16 @@ a grimly reliable annual ritual
 非常固定的年度例行事务
 impose
 强制实行
+记忆技巧：im 加强 + pose 姿势 → 加强姿势 → 强硬表态 → 强制实行
 significant
 重要的；重大的；巨大的
+记忆技巧：sign 加强 + ni “你” + fi “非” + cant “啃它” → 强调要非啃它不可 → 太重要了 → 重要的；重大的；巨大的
 burden
 负担
-impose a  significant extra burden
+impose a significant extra burden
 造成巨大的额外负担
 fraction
-记忆技巧：fract 打碎；破碎 + ion 表名词 → 碎片 → 部分
-小部分;少量;一点儿;分数;小数
+记忆技巧：fr afraid 害怕地，小心翼翼地 + action 行动 → 害怕地行动  → 小心翼翼地行动 → 小部分;少量;一点儿;分数;小数
 lower
 降低
 a fraction lower
@@ -85,11 +86,17 @@ measure of inflation
 -
 -
 permit
-许可证
+许可；许可证
+记忆技巧：per 每 + mit 见到/走 → 每个地方都可以 → 许可
+grounds
+周围的场地；沉淀物；渣滓；残渣；理由；根据
+on the grounds of
+以...为由；基于...的理由
 permit such increase on the grounds
 允许这种增加的理由
 promit
 承诺
+记忆技巧：pro 高级 + mit 见到/走 → 高级的会面 → 承诺
 bear
 熊；忍受
 过去式： bore过去分词： borne born
@@ -103,12 +110,16 @@ be borne by
 承担
 car-driving
 汽车驾驶
+pension
+记忆技巧：pens 花费 + ion 名词后缀 → （只是）花费（而没有收入） → 养老金；救济金（或补助金）
 pensioner
-养老金领取者
+养老金领取者；靠救济金（或补助金）者
+记忆技巧：pens 花费 + ion 名词后缀 + er 的人 → （只是）花费（而没有收入）的人 → 养老金领取者；靠救济金（或补助金）者
 car-driving pensioner
 汽车驾驶养老金领取者
 subsidise
 资助
+记忆技巧：subside 下降 + ise 动词词性(“我看到了，我要解决”) → “解决”下降 → 资助；补助
 commute
 通勤
 stock
@@ -121,15 +132,16 @@ subsidise the daily commute of  a stockbroker
 补贴股票经纪人每天的通勤费用
 travail
 阵痛
+记忆技巧：tr(y) “尝试” + a 一下 + va “(生)娃”的 + il “I love you 我爱你” → 尝试一下生孩子 → 阵痛
 commuter
-上下班往返的人
+上下班往返的人（上班族）
 travails of commuters
 通勤者的辛苦
 relatively
 相对地
 infra-
-prefix
-below or beyond a particular limit
+prefix——基础的；超级的
+below or beyond(more) a particular limit
 infrastructure
 基础设施
 relatively poor infrastructure
@@ -144,6 +156,7 @@ worst rail strikes
 -
 trumpet
 小号；V<宣扬;鼓吹;吹嘘;吼叫
+记忆技巧：trump “川普” + et @ → “trump又@你了” → 鼓吹，吹嘘
 substantial
 大量的
 substantial sums
@@ -155,7 +168,7 @@ the unions
 rest on the unions
 依靠工会
 compensate
-记忆技巧：com 加强 + pens 花费 + ate 使… → 花费的钱〔全部拿回来〕→ 赔偿
+记忆技巧：com 一起 + pens 花费 + ate 使… → 增加的花费 → 赔偿
 compensation
 补偿
 disruption
@@ -166,6 +179,7 @@ pledge
 誓言v.抵押
 pledge to
 保证
+记忆技巧：pl(ease) 求 + edge 边缘 → “请师傅不要走出圈外” → 保证（安全）
 define
 记忆技巧：de 加强 + fin 范围 + e → 确定范围 → 限定
 definitely
@@ -175,13 +189,14 @@ indefinitely
 cramped
 狭窄的
 punch
-用拳猛击;拳打;以拳痛击;给…打孔;(用打孔器等)打孔;按(键);压(按钮)
+=punct，用拳猛击;拳打;以拳痛击;给…打孔;(用打孔器等)打孔;按(键);压(按钮)
 punctuate
 不时打断
 regular
 有规律的
 chaos
 混乱;杂乱;紊乱
+记忆技巧：chao(s) → “吵死了” → 混乱;杂乱;紊乱
 punctuated by regular chaos
 被时不时的混乱打断
 threat
@@ -202,13 +217,17 @@ return with
 vengeance
 复仇
 justify
-证明正当；正义之视
+证明...正当；证明...清白；
 anger of passengers
 乘客的愤怒
+in short order
+在短的程序内，短时间内；
+be addressed 
+被安顿好；被解决
 is addressed in short order.
 这个问题很快就解决了。
 it will return with a vengeance if he justified anger of passengers is not addressed in short order.
-如果他认为乘客的愤怒是正当的，而不在短时间内得到解决，这将是一场复仇。
+如若他在短时间内没有合理的安抚好乘客们的愤怒，势必会招致报复。
 ------
 Answer
 ------
