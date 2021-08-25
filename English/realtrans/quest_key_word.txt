@@ -551,15 +551,15 @@ phase
 -
 poverty alleviation
 -
-be correlated with 
+be correlated with ...
 environmental degradation
 cause
 causal
 causality
-instituted
-cleared land
+institute
+clear land
 -
-Such progrom do not have to negatively affect the environment
+Such program do not have to negatively affect the environment
 proverty-alleviation
 tropical 
 tropical forest
@@ -569,12 +569,13 @@ rural
 rural poor
 shift
 makeshift
+inelement
 makeshift insurance policies against inelement weather
 
+common
+commonality
 due to commonalities
+market access
 the importance of growing rice and market access.
-regardless of transferbility
+regardless of transferability
 -----
-Answer
------
-B D C B A
