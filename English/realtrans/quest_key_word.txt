@@ -433,6 +433,69 @@ high street
 local facility
 celebrate its people
 -----
+=====
+Text2
+=====
+Word
+-----
+strategy
+peer review
+acquistion
+-
+existential
+existential crisis
+-
+open access terms
+render
+-
+Trial
+Trial subscription is offered.
+Labour
+triumph
+status
+Labour triumphs over status.
+feed on
+The few feed on the many.
+-----
+perform
+in the acquisition of status and the production of  the scientific knowledge.
+-
+secured for free
+routinely
+report
+profit
+margin
+on their operations
+routinely report profit margins approaching 40% on their operations
+existential 
+in an existential crisis
+-
+figure
+both figures
+despite
+desperate
+-
+drastic 
+thorough
+illegal
+photocopier
+paywalled 
+paywalled article
+pass on
+legally accessed
+participant
+-
+the funding bodies
+under open access terms
+-
+work out any cheaper
+charge
+charge their writer fees
+resemble
+labour is provided free in exchange for the hope of status
+in both cases
+power
+-----
 
 2021
 ~~~~
@@ -522,7 +585,7 @@ is addressed in short order.
 it will return with a vengeance if he justified anger of passengers is not addressed in short order.
 -----
 
-~~~~~
+=====
 Text2
 =====
 Word
@@ -579,3 +642,4 @@ market access
 the importance of growing rice and market access.
 regardless of transferability
 -----
+
