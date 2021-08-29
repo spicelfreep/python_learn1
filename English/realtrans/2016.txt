@@ -76,3 +76,16 @@ Translation
 Answer
 ======
 A D D C B
+
+Text2
+=====
+Word
+-----
+
+-·-·-·
+
+Translation
+-----------
+
+Answer
+------

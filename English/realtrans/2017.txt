@@ -14,7 +14,7 @@ imply - implement - implementation
 v暗示-n工具/v实施-实施
 
 reluct - reluctant - reluctance
-☆技巧：re 反向 + leg 腿 + ant ->  反方向走路 -> 反抗；反叛；作斗争
+☆技巧：re 反向 + luc->duc 引导 + ant ->  反方向引导 -> 反抗；反叛；作斗争
 
 reduce
 ☆技巧：re 反向 + duc 带来 ->  反向带来 -> 减少
@@ -48,10 +48,13 @@ procedure - process
 
 tragic
 悲剧性的
+☆技巧：t:toxic + drag  + ic -> 有毒性的药物的，毒药的 -> 悲剧了的
 
 undermine
 ☆技巧：under 下面 + mine 炸弹 -> 下面(放)炸弹 -> 破坏
 
+infuriate
+☆技巧：in + fur (毛) + y -> 炸毛 -> 狂怒，暴怒
 infuriating
 恼怒
 
@@ -61,6 +64,8 @@ undercover
 be able to
 能够
 
+sneak
+鬼鬼祟祟的
 sneak weapon
 偷袭武器
 
@@ -69,6 +74,7 @@ enhance
 
 anticipate
 预想
+☆技巧：anti 反 + cip 抓 + ate -> 反抓捕能力很强  -> 预想
 
 overpack
 外包装
@@ -81,16 +87,25 @@ dispute
 
 remodel
 改造
+
 hire
 雇佣
+
 eligible
 符合资格
+记忆技巧：e 出 + lig 选择 + ible 可…的，能…的 → 选出来的 → 合格的
+
 sticker shock
 贴纸冲击
-fate - fatal 
+
+fate(命运) - 
+fatal 
 致命的
+
 vital
 (至关)重要的
+vitamin
+维生素；维他命
 congress
 ☆技巧：con 一起；共同 + gress walk 走 -> 一起走（一起商量怎么走） -> n大会
 
@@ -99,7 +114,6 @@ look into
 
 divert
 ☆技巧：di de 向下 + vert version 转变，视线 ->  转移 -> vt使转向；使改道；转移
-
 
 Translation
 -----------

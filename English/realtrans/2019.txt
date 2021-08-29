@@ -119,3 +119,59 @@ Answer
 ------
 A D B C C
 A D B C B
+
+Text2
+=====
+Word
+-----
+catalog
+目录
+neglect
+忽视
+-
+-
+tuition
+学费
+-
+-
+aligned
+对齐的
+counterbalance
+平衡
+complement    
+补足≈(complete,完成)≈（补充，supplement）
+com ple ment   
+com ple ment   
+identical
+完全相同的
+contradictory
+矛盾的
+-
+-
+examine the practice
+检查实践
+assess its feasibility
+评估其可行性
+-----
+-----
+accelerate
+加快
+campuses
+校园
+critical to their degree program
+对他们的学位课程至关重要
+incur a big penalty
+受到重罚
+Ultimately
+最终
+registrar
+登记员
+subsequent
+后来的
+state funds
+国家资金
+student retention
+学生保留
+tuition
+学费
+-----

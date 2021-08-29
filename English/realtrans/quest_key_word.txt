@@ -311,6 +311,72 @@ upended
 
 indispensable
 indispensableness
+-------------------
+
+=====
+Text2
+=====
+Word
+-----
+cast
+-
+boast
+-
+cyber
+space
+cyberspace
+diverse
+"distributed trust"
+-
+biased (ignore base,  pia)
+misinterpret
+misinterpretation
+-
+critical
+counteract
+counteraction
+accumulate (ac + count + multi)
+accumulation
+mute=(move)
+mutual
+mutual trust
+mutuality
+mutation
+mutant
+projection
+----------
+implication
+-
+-
+literacy
+conduct
+conducted
+-
+-
+digital natives
+separate
+knight
+focus-group
+"distributed trust"
+verify
+bias
+assume
+educate
+opposing viewpoints
+conclude
+-
+-
+intimate
+intimately
+projection
+-
+-
+over-tweeting
+reveal
+mental
+discipline
+------
+
 
 2019
 ~~~~
@@ -377,6 +443,35 @@ incentive
 execute 
 executives
 reminder
+-----
+Text2
+=====
+Word
+-----
+catalog
+neglect
+-
+tuition
+-
+aligned
+counterbalance
+complement
+identical
+contradictory
+-
+examine the practice
+assess its feasibility
+-----
+accelerate
+campuses
+critical to their degree program
+incur a big penalty
+Ultimately
+registrar
+subsequent
+state funds
+student retention
+tuition
 -----
 
 2020
