@@ -1,0 +1,16 @@
+有什么解决办法吗？
+
+1听起来您正在使用 zsh / ohmyzsh 并启用了dotenv插件
+这样做以禁用确认：
+
+echo 'ZSH_DOTENV_PROMPT=false' | tee -a ~/.zshrc 
+zsh 现在将加载 .env 从当前目录中访问，而无需进行确认。
+
+如果您不需要 dotenv 插件，您可以像这样禁用它：
+
+sed -r 's/^(plugins=)(.*)dotenv(.*)$/\1\2\3/p' -i ~/.zshrc 
+我不得不把 ZSH_DOTENV_PROMPT=false 在...的开始 .zshrc 使它工作。
+
+你可以去 /.zshrc 删除文件中的插件，找到插件文本，应该是这样的。 plugins=( git,dotenv )
+
+去掉 dotenv 并运行 source ~/.zshrc，不应再次询问。
