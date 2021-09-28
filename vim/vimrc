@@ -1,124 +1,158 @@
-"set guifont=DroidSansMono\ Nerd\ Font\ Regular\ 14      
-" set guifont=Sauce\ Code\ Pro\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible 14
-" 设置字体
-
-" 自动识别文件类型,使用文件类型plugin脚本,使用缩进定义文件
-filetype indent plugin on
-filetype on              " 设置开启文件类型侦测
-set showcmd              " select模式下显示选中的行数
-set ruler                " 总是显示光标位置
-set cursorline           " 高亮显示当前行
-
-filetype plugin on       " 设置加载对应文件类型的插件
-" 打开语法加亮
-syntax on
-" session中不保存当前目录，这样使用Session.vim文件恢复时，Session.vim文件所在目录自动变成当前目录
-set sessionoptions-=curdir
+"set guifont=DroidSansMono\ Nerd\ Font\ Regular\ 14
+"set guifont=Sauce\ Code\ Pro\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible 14  " 设置字体
+filetype indent plugin on " 自动识别文件类型,使用文件类型plugin脚本,使用缩进定义文件
+filetype on               " 设置开启文件类型侦测
+filetype plugin on        " 设置加载对应文件类型的插件
+syntax on                 " 打开语法加亮
+set showcmd               " select模式下显示选中的行数
+set ruler                 " 总是显示光标位置
+set cursorline            " 高亮显示当前行
+set cursorcolumn          " 高亮显示当前列
+" 高亮颜色配置 ---{{{
+highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+" }}}
+set sessionoptions-=curdir  " session中不保存当前目录，这样使用Session.vim文件恢复时，Session.vim文件所在目录自动变成当前目录
 set sessionoptions+=sesdir
-" 用啥鼠标
-set mouse-=a
-" 文件修改之后自动载入
-set autoread
-" 开启正则表达式的magic模式，例如使用\w匹配单词
-set magic
-" 设置不兼容vi, 只使用增强模式
-set nocompatible
-" 设置可以删除行首空格,断行, 进入Insert模式之前的位置
-set backspace=indent,eol,start
-" 新行使用设置自动缩进,使用上一行的缩进方式
-set autoindent
-" 设置智能缩进
-set smartindent
-" 设置命令历史列表的长度
-set history=50
-" 将TAB替换为空格
-set expandtab
-" 设置TAB宽度
-set tabstop=4
-" 和ignorecase配合实现智能大小写匹配
-set smartcase
+set mouse-=a                " 用啥鼠标
+set autoread                " 文件修改之后自动载入
+set magic                   " 开启正则表达式的magic模式，例如使用\w匹配单词
+set nocompatible            " 设置不兼容vi, 只使用增强模式
+set backspace=indent,eol,start  " 设置可以删除行首空格,断行, 进入Insert模式之前的位置
+set autoindent              " 新行使用设置自动缩进,使用上一行的缩进方式
+set smartindent             " 设置智能缩进
+set history=50              " 设置命令历史列表的长度
+set expandtab               " 将TAB替换为空格
+set tabstop=4               " 设置TAB宽度
+set smartcase               " 和ignorecase配合实现智能大小写匹配
 set ignorecase
-" 在80个字符处设置锚线
-set colorcolumn=110
-" 补全内容不以分割子窗口形式出现，只显示补全列表
-set completeopt=longest,menu,preview
-" 使路径包含当前目录下的所有子目录
-set path+=**
-set langmenu=zh_CN.UTF-8
+set nonu                    " 不显示行号
+set hidden
+set colorcolumn=110         " 在110个字符处设置锚线
+set completeopt=longest,menu,preview  " 补全内容不以分割子窗口形式出现，只显示补全列表
+set path+=**                " 使路径包含当前目录下的所有子目录
 set helplang=cn
+set langmenu=zh_CN.UTF-8
 set termencoding=utf-8
-set encoding=utf8
-"set fileencodings=utf8
-"set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030
-set fileencoding=chinese
-set fileencodings=ucs-bom,utf-8,chinese
+set encoding=utf-8
+set ffs=unix,dos,mac        " Use Unix as the standard file type
+set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030  " set fileencodings=utf8
+set foldenable              " 开启代码折叠
+set foldcolumn=0            " 设置折叠区域的宽度
+setlocal foldlevel=1        " 设置折叠层数为1
+setlocal foldmethod=syntax
 language message zh_CN.utf-8
-set nu
 " 打开文件自动定位到最后编辑的位置
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g'\"" | endif
-" Make it so jk returns to normal mode
-inoremap jk <esc>
 " Python file settings ---------- {{{
 augroup filetype_python
   autocmd!
   autocmd FileType python setlocal foldmethod=indent
-  autocmd FileType python set foldlevel=99
+  "autocmd FileType python set foldlevel=99  " 打开文件是默认不折叠代码
 " }}}
 
+" 这只是一个实例
+function! Sorted(l)
+    let new_list = deepcopy(a:l)
+    call sort(new_list)
+    return new_list
+endfunction
 
 let mapleader = ";"
-" 保存
-nmap <leader>w :w<CR>
+" Makn it so bn  returns to normal mode
+inoremap bn <esc>
+inoremap BN <esc>
+vnoremap v visual
+vnoremap V visual
+" Useful shortcuts
+nnoremap <leader>w :w<cr>
+nnoremap q :q<cr>
+nnoremap <leader>q :q!<cr>
+nnoremap <leader><space> bi<space><esc>ea<space><esc>
 " 使用系统剪贴板
 vmap <leader>y "+y
 vmap <leader>d "+d
 nmap <leader>p "+p
 nmap <leader>P "+P
-
+" 快捷包管理
 nnoremap <leader><leader>i :PlugInstall<cr>
 nnoremap <leader><leader>u :PlugUpdate<cr>
 nnoremap <leader><leader>c :PlugClean<cr>
-
-
+" change dir
+nnoremap <leader>c :cd
+nnoremap <leader>. :cd .. <cr>
 " Easy editing/sourcing of vimrc
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
-
-" Useful shortcuts
-nnoremap <leader>w :w<cr>
-nnoremap <leader>q :q<cr>
-nnoremap <leader><space> bi<space><esc>ea<space><esc>
-
+nnoremap <leader>vv :vsplit $MYVIMRC<cr>
+nnoremap <leader>vs :source $MYVIMRC<cr>
+" buffer quick change
+nnoremap <c-n> :bnext<cr>
+nnoremap <c-p> :bprev<cr>
+nnoremap <c-w> :bd<cr>
+nnoremap <c-s-w> :bw<cr>
 
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 " Include the following in the vim-plug section of your ~/.vimrc:
-
-" Plug 'junegunn/vim-easy-align'
-
-" Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  } 
-
+" 按照指定字符进行列对齐, 非常适合拿来做一些排版操作 (不过这货的命令规则太他喵的难记了, 需要一段时间适应)
+Plug 'junegunn/vim-easy-align'
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  }
 "Miguel Grinberg
-Plug 'preservim/nerdtree'   |  
-            \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight' |
+Plug 'preservim/nerdtree'   |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
             \ Plug 'ryanoasis/vim-devicons' |
+            \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight' |
             \ Plug 'jistr/vim-nerdtree-tabs' |
-            \ Plug 'PhilRunninger/nerdtree-buffer-ops' |
-"Plug 'pangloss/vim-javascript'
+            "\ Plug 'PhilRunninger/nerdtree-buffer-ops' |  "This is a NERDTree plugin that highlights all visible nodes that are open in Vim. I find some bug
+Plug 'pangloss/vim-javascript'
+" colors ---{{{
 Plug 'joshdick/onedark.vim'
-Plug 'vim-scripts/indentpython.vim'
-" 能够显示当前文件各行的git状态
+Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'vim-scripts/indentpython.vim'  " python 的语法缩进
+" }}}
+" 能够显示当前文件各行的git状态 ---{{{
 Plug 'airblade/vim-gitgutter'
+" }}}
+" 页面底部的指示栏
 Plug 'itchyny/lightline.vim'
+" tagbar
 Plug 'preservim/tagbar'
+" syntax and indent
 Plug 'lepture/vim-jinja'
+" Syntax checking hacks for vim
 Plug 'vim-syntastic/syntastic'
+" buffer 同时显示在上方
 Plug 'ap/vim-buftabline'
+"  Defaults everyone can agree on
 Plug 'tpope/vim-sensible'
-
-" Initialize plugin system
-call plug#end()
+" vim git commend line, 把Git集成在Vim里,方便用tmux新开一个窗口来使用git
+Plug 'tpope/vim-fugitive'
+" 启动时显示文件
+Plug 'mhinz/vim-startify'
+" motions, 快速移动
+Plug 'easymotion/vim-easymotion'
+" 按 tab 来进行自动完成, 并且可以根据当前场景使用不同自动完成模式, 再也不用纠结到底用 <c-p> 还是 <c-n> 什么的了
+Plug 'ervandew/supertab'
+" 模糊匹配打开文件, 而且可以通过路径过滤, 相当好用,不过这货需要 Python,
+Plug 'Yggdroot/LeaderF'
+" Vim plugin, insert or delete brackets, parens, quotes in pair
+Plug 'jiangmiao/auto-pairs'
+" 要更改成对的括号，引号怎么办？用这个改一个等于改一对！
+" vim-surround使用指南: https://gist.github.com/wilon/ac1fc66f4a79e7b0c161c80877c75c94
+Plug 'tpope/vim-surround'
+" 支持很多种语言，自己配好快捷键，就可以快速的注释和反注释，这让我想起了 Eclipse 里的 Ctrl-/
+" nerdcommenter使用指南: https://blog.csdn.net/qq_38883889/article/details/106444223
+Plug 'scrooloose/nerdcommenter'
+" 如果行尾有多余的空格，会高亮显示出来，此时，执行 :StripWhitespace 就可以自动消除
+Plug 'ntpeters/vim-better-whitespace'
+" 快速插入一些预定义模板, 需要较长时间折腾属于自己的配置
+Plug 'SirVer/ultisnips'
+" snippets模板
+Plug 'spicelfreep/vim-snippets'
+"Improve Vim's native recent file history
+Plug 'gpanders/vim-oldfiles'
+call plug#end() " Initialize plugin system
 
 "自动安装插件管理器
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -130,25 +164,53 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     augroup END
 endif
 
-" Set color scheme
-colorscheme onedark
+" Set color scheme ---{{{
+set background=dark
+" colorscheme onedark
+" colorscheme solarized
+" colorscheme gruvbox
+colorscheme PaperColor
+"}}}
 
-" nerdtree
+" vim-better-whitespace :StripWhitespace
+nnoremap <c-a-w> :StripWhitespace<cr>
+
+" vim-fugitive of vimrc ---{{{
+nnoremap ga :Git add %<cr>
+nnoremap gb :Git branch -a<cr>
+nnoremap gc :Git commit -v<cr>
+nnoremap gco :Git checkout
+nnoremap gcom :Git checkout master
+nnoremap gcoh :Git checkout helin
+nnoremap gd :Git diff <cr>
+nnoremap gdw :Git diff --cached --word-diff<cr>
+nnoremap glo :Git log --decorate=short --oneline<cr>
+nnoremap gl :Git pull<cr>
+nnoremap gp :Git push --set-upstream origin helin<cr>
+nnoremap gst :Git status<cr>
+nnoremap gma :Git merge
+nnoremap gmm :Git merge master<cr>
+" }}}
+
+" nerdtree ---{{{
+" autocmd VimEnter * NERDTree
+" 关闭vim时，如果打开的文件除了NERDTree没有其他文件时，它自动关闭，减少多次按:q!。
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+let NERDTreeShowLineNumbers=0 " not show line number
 nnoremap <silent> <leader>n :NERDTreeToggle<cr>
-let g:NERDTreeDirArrowExpandable='|'
-let g:NERDTreeDirArrowCollapsible='\'
-" Plugin shortcutv
+"let g:NERDTreeDirArrowExpandable=''  "show dir icon
+"let g:NERDTreeDirArrowCollapsible='' "show dir icon
 let g:NERDTreeDirArrow=1     "show node model
-let g:NERDTreeHidden=0     "不显示隐藏文件
-let g:NERDTreeMinimalUI=1     "不显示Help
-nnoremap <c-n> :NERDTreeToggle<cr>
+let g:NERDTreeHidden=1       "不显示隐藏文件
+let g:NERDTreeMinimalUI=1    "不显示Help
 nnoremap <c-k> <c-w>k
 nnoremap <c-j> <c-w>j
 nnoremap <c-l> <c-w>l
 nnoremap <c-h> <c-w>h
+"}}}
 
 
-" nerdtree-git-plugin
+" nerdtree-git-plugin ---{{{
 let g:NERDTreeGitStatusIndicatorMapCustom = {
             \ "Modified"  : "✹",
             \ "Staged"    : "✚",
@@ -161,11 +223,74 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
             \ 'Ignored'   : '☒',
             \ "Unknown"   : "?"
             \ }
-
-" custom symbols
-let g:NERDTreeGitStatusUseNerdFonts = 0 " you should install nerdfonts by yourself. default: 0
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']  " custom symbols
+let g:NERDTreeQuitOnOpen = 1 " default: 0
+let g:NERDTreeGitStatusPorcelainVersion = 1 " default: 0
+let g:NERDTreeGitStatusUsederdFonts = 0 " you should install nerdfonts by yourself. default: 0
 let g:NERDTreeGitStatusShowIgnored = 0 " a heavy feature may cost much more time. default: 0
 let g:NERDTreeGitStatusUntrackedFilesMode = 'normal' " a heavy feature too. default: normal
-let g:NERDTreeGitStatusConcealBrackets = 1 "How to show Clean indicator? default: 0
+let g:NERDTreeGitStatusConcealBrackets = 0 "How to show Clean indicator? default: 0
 let g:NERDTreeGitStatusShowClean = 1 "How to hide the boring brackets([ ])? default: 0
+"}}}
 
+" pymode ---{{{
+let g:pymode_python = 'python3'
+let g:pymode_run = 1
+let g:pymode_options_max_line_length = 1200
+let g:pymode_lint_options_pep8 = {'max_line_length': g:pymode_options_max_line_length}
+let g:pymode_options_colorcolumn = 1
+"}}}
+
+" tagbar ---{{{
+nmap <leader>t :TagbarToggle<CR>
+let g:tagbar_sort = 0 "设置标签不排序，默认排序
+let g:tagbar_autofocus = 1 "这是tagbar一打开，光标即在tagbar页面内，默认在vim打开的文件内
+let g:tagbar_compact=1 " tagbar 子窗口中不显示冗余帮助信息
+let g:tagbar_autoclose=1 " tagbar 选择后自动关闭
+" }}}
+
+" vim-easymotion ---{{{
+nmap s <Plug>(easymotion-s)
+nmap S <Plug>(easymotion-s2)
+"nmap <leader>j <Plug>(easymotion-bd-w)
+"nmap <leader>J <Plug>(easymotion-sol-bd-jk)
+"nmap <leader>T <Plug>(easymotion-t2)
+map  / <Plug>(easymotion-sn)
+omap  / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
+let g:EasyMotion_smartcase = 1
+" }}}
+
+" NERD Commenter ---{{{
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 0
+let NERDCompactSexyComs=1       " 多行注释时样子更好看
+let g:NERDDefaultAlign = 'left'  "将行注释符左对齐
+let g:NERDCommentEmptyLines = 1 " Allow commenting and inverting empty lines
+nmap <c-/> <Plug>NERDCommenterToggle
+vmap <c-/> <Plug>NERDCommenterToggle<cr>gv
+"imap <c-/> #
+" }}}
+
+" The ultimate snippet solution for Vim ---{{{
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+let g:UltiSnipsEditSplit="vertical"  " If you want :UltiSnipsEdit to split your window.
+" }}}
+
+" browse Oldfiles ---{{{
+nmap <space>o :Oldfiles<cr>
+"make the oldfiles list automatically close after I select an entry
+augroup oldfiles
+    autocmd!
+    autocmd FileType qf if get(w:, 'quickfix_title') =~# 'Oldfiles' | nnoremap <buffer> <CR> <CR>:cclose<CR> | endif
+augroup END
+" }}}
