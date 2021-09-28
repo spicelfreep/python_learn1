@@ -1,0 +1,30 @@
+配置foldmethod可以定义折叠方式，有6种可选方式：
+ 
+1. manual //手工定义折叠
+2. indent //用缩进表示折叠
+3. expr　 //用表达式来定义折叠
+4. syntax //用语法高亮来定义折叠
+5. diff   //对没有更改的文本进行折叠
+6. marker //用标志折叠
+
+
+"使用语法高亮定义代码折叠
+set foldmethod=syntax
+"打开文件是默认不折叠代码
+set foldlevelstart=99
+
+折叠命令：
+zc 关闭折叠
+zo 打开折叠
+za 打开/关闭折叠互相切换
+
+完整配置：
+set foldenable              " 开始折叠
+set foldmethod=syntax       " 设置语法折叠
+set foldcolumn=0            " 设置折叠区域的宽度
+setlocal foldlevel=1        " 设置折叠层数为
+set foldlevelstart=99       " 打开文件是默认不折叠代码
+
+"set foldclose=all          " 设置为自动关闭折叠                
+nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
+" 用空格键来开关折叠
