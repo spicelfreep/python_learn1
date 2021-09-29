@@ -1,0 +1,11 @@
+I am using ghc-mod in vim and would like GhcModCheck (:GhcModCheck) to be called every time I save a file (:w). Could you please tell me how I can achieve that? I guess there's a more general question: how can I invoke a function on save?
+
+You can hook into the BufWritePost event. Globally (i.e. for every file):
+
+:autocmd BufWritePost * GhcModCheck
+To do this only for Haskell files, you could modify the file pattern:
+
+:autocmd BufWritePost *.hs GhcModCheck
+But it's better to leverage Vim's built-in filetype detection and instead put this into ~/.vim/ftplugin/haskell_OnSave.vim:
+
+:autocmd! BufWritePost <buffer> GhcModCheck
