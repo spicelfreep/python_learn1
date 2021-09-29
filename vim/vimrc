@@ -8,10 +8,7 @@ set showcmd               " select模式下显示选中的行数
 set ruler                 " 总是显示光标位置
 set cursorline            " 高亮显示当前行
 set cursorcolumn          " 高亮显示当前列
-" 高亮颜色配置 ---{{{
-highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-highlight CursorColumn   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-" }}}
+set cul                   " TODO
 set sessionoptions-=curdir  " session中不保存当前目录，这样使用Session.vim文件恢复时，Session.vim文件所在目录自动变成当前目录
 set sessionoptions+=sesdir
 set mouse-=a                " 用啥鼠标
@@ -23,7 +20,7 @@ set autoindent              " 新行使用设置自动缩进,使用上一行的�
 set smartindent             " 设置智能缩进
 set history=50              " 设置命令历史列表的长度
 set expandtab               " 将TAB替换为空格
-set tabstop=4               " 设置TAB宽度
+set tabstop=2               " 设置TAB宽度
 set smartcase               " 和ignorecase配合实现智能大小写匹配
 set ignorecase
 set nonu                    " 不显示行号
@@ -42,14 +39,7 @@ set foldcolumn=0            " 设置折叠区域的宽度
 setlocal foldlevel=1        " 设置折叠层数为1
 setlocal foldmethod=syntax
 language message zh_CN.utf-8
-" 打开文件自动定位到最后编辑的位置
-autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g'\"" | endif
-" Python file settings ---------- {{{
-augroup filetype_python
-  autocmd!
-  autocmd FileType python setlocal foldmethod=indent
-  "autocmd FileType python set foldlevel=99  " 打开文件是默认不折叠代码
-" }}}
+
 
 " 这只是一个实例
 function! Sorted(l)
@@ -93,6 +83,7 @@ nnoremap <c-s-w> :bw<cr>
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 " Include the following in the vim-plug section of your ~/.vimrc:
+
 " 按照指定字符进行列对齐, 非常适合拿来做一些排版操作 (不过这货的命令规则太他喵的难记了, 需要一段时间适应)
 Plug 'junegunn/vim-easy-align'
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  }
@@ -154,26 +145,19 @@ Plug 'spicelfreep/vim-snippets'
 Plug 'gpanders/vim-oldfiles'
 call plug#end() " Initialize plugin system
 
-"自动安装插件管理器
-if empty(glob('~/.vim/autoload/plug.vim'))
-    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-                \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    augroup vim-plug_
-        autocmd!
-        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-    augroup END
-endif
 
 " Set color scheme ---{{{
 set background=dark
-" colorscheme onedark
-" colorscheme solarized
-" colorscheme gruvbox
-colorscheme PaperColor
+"colorscheme onedark
+"colorscheme solarized
+colorscheme gruvbox
+"colorscheme PaperColor
 "}}}
 
 " vim-better-whitespace :StripWhitespace
 nnoremap <c-a-w> :StripWhitespace<cr>
+
+nmap <space>o :Oldfiles<cr>
 
 " vim-fugitive of vimrc ---{{{
 nnoremap ga :Git add %<cr>
@@ -193,9 +177,6 @@ nnoremap gmm :Git merge master<cr>
 " }}}
 
 " nerdtree ---{{{
-" autocmd VimEnter * NERDTree
-" 关闭vim时，如果打开的文件除了NERDTree没有其他文件时，它自动关闭，减少多次按:q!。
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 let NERDTreeShowLineNumbers=0 " not show line number
 nnoremap <silent> <leader>n :NERDTreeToggle<cr>
 "let g:NERDTreeDirArrowExpandable=''  "show dir icon
@@ -208,7 +189,6 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-l> <c-w>l
 nnoremap <c-h> <c-w>h
 "}}}
-
 
 " nerdtree-git-plugin ---{{{
 let g:NERDTreeGitStatusIndicatorMapCustom = {
@@ -235,10 +215,17 @@ let g:NERDTreeGitStatusShowClean = 1 "How to hide the boring brackets([ ])? defa
 
 " pymode ---{{{
 let g:pymode_python = 'python3'
+let g:pymode_lint = 1
 let g:pymode_run = 1
+let g:pymode_lint_unmodified = 1
 let g:pymode_options_max_line_length = 1200
 let g:pymode_lint_options_pep8 = {'max_line_length': g:pymode_options_max_line_length}
 let g:pymode_options_colorcolumn = 1
+"编辑时进行检查
+let g:pymode_lint_on_fly = 1
+"语法检查的引擎支持pylint, pep257, pep8, pyflakes和mccabe
+let g:pymode_lint_checkers = ['pyflakes', 'pep8']
+let g:pymode_motion = 1
 "}}}
 
 " tagbar ---{{{
@@ -252,17 +239,19 @@ let g:tagbar_autoclose=1 " tagbar 选择后自动关闭
 " vim-easymotion ---{{{
 nmap s <Plug>(easymotion-s)
 nmap S <Plug>(easymotion-s2)
-"nmap <leader>j <Plug>(easymotion-bd-w)
-"nmap <leader>J <Plug>(easymotion-sol-bd-jk)
-"nmap <leader>T <Plug>(easymotion-t2)
+nmap F <Plug>(easymotion-bd-w)
+nmap f <Plug>(easymotion-bd-jk)
+"nmap F <Plug>(easymotion-sol-bd-jk)
+nmap t <Plug>(easymotion-t)
+nmap T <Plug>(easymotion-t2)
 map  / <Plug>(easymotion-sn)
-omap  / <Plug>(easymotion-tn)
+omap / <Plug>(easymotion-tn)
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
-map <Leader>l <Plug>(easymotion-lineforward)
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
-map <Leader>h <Plug>(easymotion-linebackward)
+map <space>l <Plug>(easymotion-lineforward)
+map <space>j <Plug>(easymotion-j)
+map <space>k <Plug>(easymotion-k)
+map <space>h <Plug>(easymotion-linebackward)
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 let g:EasyMotion_smartcase = 1
@@ -286,11 +275,65 @@ let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 let g:UltiSnipsEditSplit="vertical"  " If you want :UltiSnipsEdit to split your window.
 " }}}
 
-" browse Oldfiles ---{{{
-nmap <space>o :Oldfiles<cr>
-"make the oldfiles list automatically close after I select an entry
-augroup oldfiles
-    autocmd!
-    autocmd FileType qf if get(w:, 'quickfix_title') =~# 'Oldfiles' | nnoremap <buffer> <CR> <CR>:cclose<CR> | endif
+
+" auto command ---{{{
+"自动安装插件管理器
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+                \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    augroup vim-plug_
+        autocmd!
+        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    augroup END
+endif
+
+autocmd! BufWritePost <buffer> StripWhitespace
+
+"autocmd! VimEnter * NERDTree
+
+" 关闭vim时，如果打开的文件除了NERDTree没有其他文件时，它自动关闭，减少多次按:q!。
+autocmd! BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+
+" 打开文件自动定位到最后编辑的位置
+autocmd! BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g'\"" | endif
+
+autocmd! BufEnter,BufWinEnter source $MYVIMRC<cr>
+
+" Python file settings ---------- {{{
+augroup filetype_python
+  autocmd!
+  " 表示清除当前组的所有autocmd
+  autocmd FileType python setlocal foldmethod=indent
+  "autocmd FileType python set foldlevel=99  " 打开文件是默认不折叠代码
+  autocmd FileType python set nonu
+  autocmd FileType python setlocal tabstop=4
+  " 设置TAB宽度
+  " 高亮颜色配置 --{{
+  "autocmd FileType python setlocal highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+  "autocmd FileType python setlocal highlight CursorColumn   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+  " }}
+  "自动运行PymodeLintAuto -- Fix PEP8 errors in current buffer automatically
+  autocmd FileType python autocmd! VimLeavePre,BufDelete <buffer> PymodeLintAuto
+  "-- Toggle code checking
+  "autocmd FileType python autocmd! BufLeave <buffer> PymodeLintToggle
+  "-- code checking
+  autocmd FileType python autocmd! BufEnter <buffer> PymodeLint
 augroup END
 " }}}
+
+augroup filetype_others
+  "autocmd!
+  "关闭所有的quickfix/locationlist
+  "autocmd FileType vim autocmd! BufEnter * windo if &buftype == "quickfix" || &buftype == "locationlist" | cclose | endif
+  autocmd FileType vim autocmd! BufEnter * lclose " TODO
+augroup END
+
+augroup filetype_qf
+  autocmd!
+  "Exclude quickfix buffer from `:bnext` `:bprevious`
+  autocmd FileType qf set nobuflisted
+  " press v in quickfix window to preview --这样在quickfix/locationlist窗口移动光标到想看的条目后按'v'就能在其它窗口列出此条目对应文件的那行并居中显示 如果 :set cul 那么那行会被高亮
+  autocmd FileType qf :nnoremap <buffer> v <Enter>zz:wincmd p<Enter>
+  "make the oldfiles list automatically close after I select an entry
+  autocmd FileType qf if get(w:, 'quickfix_title') =~# 'Oldfiles' | nnoremap <buffer> <CR> <CR>:cclose<CR> | endif
+augroup END
