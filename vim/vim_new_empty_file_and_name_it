@@ -10,3 +10,8 @@ There are many ways to open a new buffer with no name, the simplest of which is 
 :vnew will open one in a vertically split window.
 
 :tabnew will open one in a new tab.
+
+
+
+
+:w test.txt
