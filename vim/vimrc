@@ -36,8 +36,8 @@ set ffs=unix,dos,mac        " Use Unix as the standard file type
 set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030  " set fileencodings=utf8
 set foldenable              " 开启代码折叠
 set foldcolumn=0            " 设置折叠区域的宽度
-setlocal foldlevel=1        " 设置折叠层数为1
-setlocal foldmethod=syntax
+set foldlevel=1             " 设置折叠层数为1
+set foldmethod=indent
 language message zh_CN.utf-8
 
 
