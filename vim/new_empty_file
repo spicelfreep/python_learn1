@@ -1,0 +1,12 @@
+How do you open another [No Name] buffer like the one on startup?
+
+
+There are many ways to open a new buffer with no name, the simplest of which is :new.
+
+:new will create a split window with an unnamed buffer.
+
+:enew will open one in the current window.
+
+:vnew will open one in a vertically split window.
+
+:tabnew will open one in a new tab.
