@@ -362,6 +362,7 @@ B D C C A
 
 36-40: D B A D A
 41-45: B C F A D
+
 46:Those societies came out of the war with levels of enrollment that had been roughly constant at 3-5% relevant age groups during the decades before the war
 1.Those societies came out of the war with levels of enrollment
 那些社会从战争中走出来，招生人数也很高
@@ -371,10 +372,14 @@ B D C C A
 战争开始前的那二十年
 B.这些社会成员来自于在战前几十年里，在以3-5%的较高招收率的相关年龄组中大致恒定的战争中。
 C. 战争刚刚结束时，这些社会的适龄群体入学率大致为3-5%，这是战前几十年基本恒定未变的水平。
+
 47:And the demand that rose in those societies for entry to higher education extended to groups and social classes that had not thought of attending a university before the war.
 A.而 在这些社会中上升的进入高等教育的需求 趋向于不考虑在战争前进入大学的分组化和社会分类化
 B.这些社会对进入高等教育上升的需求的人趋向于成为战前不想上大学的群体和社会阶层。
 C.在这些社会中，人们对接受高等教育的需求越来越高，甚至蔓延到了战前从未想过上大学的群体和社会阶层。
+
+48：in many countries of Western Europe, the numbers of students in higher education doubled within five-year periods during the 1960s and doubled again in seven, eight, or ten years by the middle of the 1970s.
+A. 在许多西欧的国家，60年代，接受高等教育的学生数量五年内就翻了一翻；到了70年代，七八年内或者十年内就又翻了一翻。
 
 51.How to find a job in China?
 1/感谢/欢迎/谦虚
