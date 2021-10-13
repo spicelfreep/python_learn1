@@ -360,6 +360,7 @@ B D C B A
 B D C C A
 -----
 
+31-35: A D D A D 
 36-40: D B A D A
 41-45: B C F A D
 
