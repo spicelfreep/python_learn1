@@ -47,7 +47,6 @@
   
   2、请描述证明DNA半保留复制模式的Meselson-Stahl实验，并说明通过该实验看到的第0-5代大肠杆菌DNA分子的密度分布。
      假如DNA复制是分散复制（Dispersive replication），在Meselson-stahl实验中会看到什么结果？
-     
      答：
      1958年Meselson和Stahl的CsCl超离心实验首次在分子水平上成功证明了DNA的半保留复制。
      如果半保留复制是正确的，则新生的DNA双链中的一条链应该是新合成的，而另一条链应该是全部从亲代接受继承的旧链。
@@ -61,8 +60,22 @@
          最终形成四条新旧交错的DNA链，
          这种情况下，观察到的0-5代的DNA链始终在重带和轻带之间，经过变性后，也保持原来的位置不变。
   
-  3、
-  
+  3、RNA的茎环结构对于维持RNA稳定性很重要，一段RNA的5'序列为5'-AUUUGCCCUAGCAAACGUAGCAAACG，请问该序列可能形成什么样的茎环结构？
+     答：
+     5'-AUU UGC CCU AGC AAA CGU AGC AAA CG
+     5'-AU UUG CCC UAG CAA ACG UAG CAA ACG
+     
+     3'-GC AAA CGA UGC AAA CGA UCC CGU UUA
+     3'-GCA AAC GAU GCA AAC GAU CCC GUU UA
+     
+     (1)
+      5'-A UUUGC CCUAGCAAACGUA GCAAACG
+     3'-GC AAACG AUGCAAACGAUCC CGUUUA
+
+     (2)
+               5'-AUUUGC CCUA GCAAACGUAGCAAACG
+     3'-GCAAACGAUGCAAACG AUCC CGUUUA
+         
   4、
   
   5、
