@@ -62,21 +62,26 @@
   
   3、RNA的茎环结构对于维持RNA稳定性很重要，一段RNA的5'序列为5'-AUUUGCCCUAGCAAACGUAGCAAACG，请问该序列可能形成什么样的茎环结构？
      答：
-     5'-AUU UGC CCU AGC AAA CGU AGC AAA CG
-     5'-AU UUG CCC UAG CAA ACG UAG CAA ACG
+     5'-AUU UGC CCU AGC AAA CGU AGC AAA CG -3'
+         
+     3'-GC AAA CGA UGC AAA CGA UCC CGU UUA -5' (翻转)
      
-     3'-GC AAA CGA UGC AAA CGA UCC CGU UUA
-     3'-GCA AAC GAU GCA AAC GAU CCC GUU UA
      
      (1)
-      5'-A UUUGC CCUAGCAAACGUA GCAAACG
-     3'-GC AAACG AUGCAAACGAUCC CGUUUA
+      5'-A UUUGC CCUAGCAAACGUA GCAAA CG（平移）
+     3'-GC AAACG AUGCAAACGAUCC CGUUU A
 
      (2)
-               5'-AUUUGC CCUA GCAAACGUAGCAAACG
-     3'-GCAAACGAUGCAAACG AUCC CGUUUA
+               5'-A UUUGC CCUA GCAAA CGUAGCAAACG（平移）
+     3'-GCAAACGAUGC AAACG AUCC CGUUU A
          
-  4、
+  4、一个合子有两对同源染色体，A和a以及B和b。在它的生长过程中，
+     （1）体细胞基因型是下面的哪种、哪些组合：AaBB，AABb，AaBb，AABB，aabb，还是另有其他组合？
+     （2）个体成熟后，全部配子中会有哪几种基因型的配子？比例多少？
+     答：
+     （1）、AABB AABa AAbb
+            AaBB AaBa Aabb
+            aaBB aaBa aabb
   
   5、
   
