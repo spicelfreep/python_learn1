@@ -1,0 +1,16 @@
+sqlalchemy使用之查询指定的列
+-1.db.session.query(表名.title, 表名.page).all()
+
+-2.db.session.query(表名).with_entities(表名.title, 表名.page).all()
+
+-3.db.session.query(表名).options(load_only(title,page)).all()
+
+
+
+前2个方法返回的是列表里面套元组,直接就是数据(例:[('title1','20'),('title2','22'),('title3','30')])
+
+最后一个方法返回的是列表里面是一个个对象[对象1,对象2,对象3]
+
+且最后一个方法需要导入一下load_only
+
+from sqlalchemy.orm import load_only
