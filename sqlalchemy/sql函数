@@ -1,0 +1,146 @@
+一、LEFT() 函数
+  LEFT(string,length) ,从字符串string左边第一位开始，截取长度为length个字符。length应大于0，如<=0，返回空字符串。示例如下：
+
+mysql> SELECT LEFT('www.csdn.net',5) from web_info w;
++------------------+
+| LEFT('www.csdn.net',5) |
++------------------+
+| www.c            |
++------------------+
+1 row in set (0.00 sec)
+二、RIGHT() 函数
+  LEFT(string,length) ,从字符串string右边第一位开始，截取长度为length个字符，仍然是正向顺序截取。length应大于0，如<=0，返回空字符串。
+
+mysql> SELECT RIGHT('www.csdn.net',5) from web_info w;
++-------------------------+
+| RIGHT('www.csdn.net',5) |
++-------------------------+
+| n.net                   |
++-------------------------+
+1 row in set (0.00 sec)
+三、SUBSTRING() 函数
+substring()是专门用来对字符串进行切分的函数，主要有两种形式：
+
+SUBSTRING(string,position);
+SUBSTRING(string,position,length);
+以下是上述两类语句的SQL标准版本写法，意义相同，它更长，但更具表现力。
+
+SUBSTRING(string FROM position);
+SUBSTRING(string FROM position FOR length);
+下面让我们来一起看一下SUBSTRING()的两种用法示例；
+
+1.SUBSTRING(string,position)
+string：参数是要操作的字符串。
+position： 参数是一个"整数"，用于指定子串的起始字符，position可以是正整数或负整数。若position大于操作字符串的长度，则返回空字符串。
+例如，从“www.csdn.net”字符串中获取子字符串：“csdn.net”，子串的位置必须从5开始，如以下SELECT语句：
+
+mysql> SELECT substring('www.csdn.net',5) from web_info w;
++-----------------------------+
+| substring('www.csdn.net',5) |
++-----------------------------+
+| csdn.net                    |
++-----------------------------+
+1 row in set (0.00 sec)
+2.SUBSTRING(string,position,length)
+  除了string和position参数之外，SUBSTRING函数还有一个length参数。length是一个正整数，用于指定子字符串的字符数。如果length<=0，那么会返回空字符串。
+
+例如，获取www.csdn.net中的csdn，SQL如下：
+
+mysql> SELECT substring('www.csdn.net',5,4) from web_info w;
++-------------------------------+
+| substring('www.csdn.net',5,4) |
++-------------------------------+
+| csdn                          |
++-------------------------------+
+1 row in set (0.00 sec)
+或者通过配置position，从后往前数；SQL如下：
+
+mysql> SELECT substring('www.csdn.net',-8,4) from web_info w;
++--------------------------------+
+| substring('www.csdn.net',-8,4) |
++--------------------------------+
+| csdn                           |
++--------------------------------+
+1 row in set (0.00 sec)
+又或者通过SQL标准方式来写，SQL如下：
+
+mysql> SELECT substring('www.csdn.net' FROM 5 FOR 4) from web_info w;
++----------------------------------------+
+| substring('www.csdn.net' FROM 5 FOR 4) |
++----------------------------------------+
+| csdn                                   |
++----------------------------------------+
+1 row in set (0.00 sec)
+另外，MySQL中的 mid(), substr() 等价于 substring() 函数哦！
+
+四、SUBSTRING_INDEX() 函数
+  SUBSTRING_INDEX(str,delim,count)，是一个通过特定标识符"delim"来截取子串的函数，我们日常使用频率是很高的；
+
+delim：通过该标识符来进行截取的，delim可以为任意字符，不要为空；
+count：代表第几次出现；count为正数，代表取标识符出现第count次之前的子串；负数则相反，取标识符出现第count次之后的子串。
+例如：‘www.csdn.net’，获取第一次出现标识符’.'前面的子串，SQL如下；
+
+mysql> SELECT SUBSTRING_INDEX('www.csdn.net','.',1) from web_info w;
++---------------------------------------+
+| SUBSTRING_INDEX('www.csdn.net','.',1) |
++---------------------------------------+
+| www                                   |
++---------------------------------------+
+1 row in set (0.00 sec)
+获取第一次出现标识符’.'后面的子串，SQL如下；
+
+mysql> SELECT SUBSTRING_INDEX('www.csdn.net','.',-2) from web_info w;
++----------------------------------------+
+| SUBSTRING_INDEX('www.csdn.net','.',-2) |
++----------------------------------------+
+| csdn.net                               |
++----------------------------------------+
+1 row in set (0.00 sec)
+想获取两个’.'中间的呢？可以嵌套一下，SQL如下；
+
+mysql> SELECT SUBSTRING_INDEX(substring_index('www.csdn.net','.',2),'.',-1) from web_info w;
++---------------------------------------------------------------+
+| SUBSTRING_INDEX(substring_index('www.csdn.net','.',2),'.',-1) |
++---------------------------------------------------------------+
+| csdn                                                          |
++---------------------------------------------------------------+
+1 row in set (0.00 sec)
+产品：emmm…那如果我想o_O o_O 程序员：不，你不想！
+
+五、实战操作
+我们以表web_info为测试表，数据如下；
+
+mysql> select * from web_info;
++------+--------+----------------+---------------------+
+| w_id | w_name | w_domain       | pub_time            |
++------+--------+----------------+---------------------+
+|    1 | CSDN   | www.csdn.net   | 2020-09-03 11:29:29 |
+|    5 | 百度   | www.baidu.com  | 2020-09-18 14:37:38 |
+|    6 | 淘宝   | www.taobao.com | 2020-09-03 14:37:57 |
++------+--------+----------------+---------------------+
+3 rows in set (0.00 sec)
+需求1：获取web_info数据的一级域名； 注：这里仅用于举例说明，与实际会有些出入，如.com.cn那种多级后缀就需另外处理。
+
+mysql> SELECT SUBSTRING_INDEX(w_domain,'.',-2),w.* from web_info w;
++----------------------------------+------+--------+----------------+---------------------+
+| SUBSTRING_INDEX(w_domain,'.',-2) | w_id | w_name | w_domain       | pub_time            |
++----------------------------------+------+--------+----------------+---------------------+
+| csdn.net                         |    1 | CSDN   | www.csdn.net   | 2020-09-03 11:29:29 |
+| baidu.com                        |    5 | 百度   | www.baidu.com  | 2020-09-18 14:37:38 |
+| taobao.com                       |    6 | 淘宝   | www.taobao.com | 2020-09-03 14:37:57 |
++----------------------------------+------+--------+----------------+---------------------+
+3 rows in set (0.00 sec)
+需求2：把w_domain字段数据都改成一级域名；
+
+update web_info set w_domain = SUBSTRING_INDEX(w_domain,'.',-2) ;
+修改后查询:
+
+mysql> SELECT * from web_info;
++------+--------+------------+---------------------+
+| w_id | w_name | w_domain   | pub_time            |
++------+--------+------------+---------------------+
+|    1 | CSDN   | csdn.net   | 2020-09-03 14:54:59 |
+|    5 | 百度   | baidu.com  | 2020-09-03 14:54:59 |
+|    6 | 淘宝   | taobao.com | 2020-09-03 14:54:59 |
++------+--------+------------+---------------------+
+3 rows in set (0.00 sec)
