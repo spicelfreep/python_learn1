@@ -60,3 +60,10 @@ GIT常用命令
 
 删除远程分支
 指令git push origin --delete branch,该指令也会删除追踪分支
+
+
+git revert：放弃某次提交。
+git revert 之前的提交仍会保留在 git log 中，而此次撤销会做为一次新的提交。
+git revert -m：用于对 merge 节点的操作，-m 指定具体某个提交点。
+撤销提交
+要撤销中间某次提交时，使用 git revert 也是一个很好的选择：
