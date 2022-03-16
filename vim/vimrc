@@ -20,7 +20,9 @@ set autoindent              " 新行使用设置自动缩进,使用上一行的�
 set smartindent             " 设置智能缩进
 set history=50              " 设置命令历史列表的长度
 set expandtab               " 将TAB替换为空格
-set tabstop=2               " 设置TAB宽度
+set tabstop=4               " 设置TAB宽度(每一个tab显示出来的多少个空格)
+" set softtabstop=4               " 设置TAB宽度(每一个tab显示出来的多少个空格)
+set shiftwidth=4               " 每一级缩进的长度
 set smartcase               " 和ignorecase配合实现智能大小写匹配
 set ignorecase
 set nonu                    " 不显示行号
@@ -36,7 +38,7 @@ set ffs=unix,dos,mac        " Use Unix as the standard file type
 set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030  " set fileencodings=utf8
 set foldenable              " 开启代码折叠
 set foldcolumn=0            " 设置折叠区域的宽度
-set foldlevel=1             " 设置折叠层数为1
+"set foldlevel=1        " 设置折叠层数为1
 set foldmethod=indent
 language message zh_CN.utf-8
 
@@ -73,7 +75,10 @@ nnoremap <leader>c :cd
 nnoremap <leader>. :cd .. <cr>
 " Easy editing/sourcing of vimrc
 nnoremap <leader>vv :vsplit $MYVIMRC<cr>
-nnoremap <leader>vs :source $MYVIMRC<cr>
+nnoremap <leader>vz :vsplit ~/.zshrc<cr>
+nnoremap <leader>ve :Ve<cr>
+nnoremap <leader>e :Ex<cr>
+nnoremap vv :source $MYVIMRC<cr>
 " buffer quick change
 nnoremap <c-n> :bnext<cr>
 nnoremap <c-p> :bprev<cr>
@@ -147,17 +152,13 @@ call plug#end() " Initialize plugin system
 
 
 " Set color scheme ---{{{
+" light
 set background=dark
 "colorscheme onedark
 "colorscheme solarized
-colorscheme gruvbox
-"colorscheme PaperColor
+"colorscheme gruvbox
+colorscheme PaperColor
 "}}}
-
-" vim-better-whitespace :StripWhitespace
-nnoremap <c-a-w> :StripWhitespace<cr>
-
-nmap <space>o :Oldfiles<cr>
 
 " vim-fugitive of vimrc ---{{{
 nnoremap ga :Git add %<cr>
@@ -166,7 +167,7 @@ nnoremap gc :Git commit -v<cr>
 nnoremap gco :Git checkout
 nnoremap gcom :Git checkout master
 nnoremap gcoh :Git checkout helin
-nnoremap gd :Git diff <cr>
+nnoremap gd :Git diff %<cr>
 nnoremap gdw :Git diff --cached --word-diff<cr>
 nnoremap glo :Git log --decorate=short --oneline<cr>
 nnoremap gl :Git pull<cr>
@@ -224,7 +225,9 @@ let g:pymode_options_colorcolumn = 1
 "编辑时进行检查
 let g:pymode_lint_on_fly = 1
 "语法检查的引擎支持pylint, pep257, pep8, pyflakes和mccabe
-let g:pymode_lint_checkers = ['pyflakes', 'pep8']
+"let g:pymode_lint_checkers = ['pyflakes', 'pep8']
+"let g:pymode_lint_checkers = ['pyflakes']
+let g:pymode_lint_checkers = []
 let g:pymode_motion = 1
 "}}}
 
@@ -237,21 +240,29 @@ let g:tagbar_autoclose=1 " tagbar 选择后自动关闭
 " }}}
 
 " vim-easymotion ---{{{
-nmap s <Plug>(easymotion-s)
-nmap S <Plug>(easymotion-s2)
-nmap F <Plug>(easymotion-bd-w)
-nmap f <Plug>(easymotion-bd-jk)
-"nmap F <Plug>(easymotion-sol-bd-jk)
-nmap t <Plug>(easymotion-t)
-nmap T <Plug>(easymotion-t2)
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
-map <space>l <Plug>(easymotion-lineforward)
-map <space>j <Plug>(easymotion-j)
-map <space>k <Plug>(easymotion-k)
-map <space>h <Plug>(easymotion-linebackward)
+"nmap s <Plug>(easymotion-s)
+"nmap S <Plug>(easymotion-s2)
+nmap <c-a-f> <Plug>(easymotion-bd-w)
+nmap <c-a-g> <Plug>(easymotion-bd-jk)
+nmap <c-a-s> <Plug>(easymotion-sol-bd-jk)
+nmap <c-a-w> <Plug>(easymotion-lineanywhere)
+
+" 参活一下oldfiles
+nmap <c-a-o> :Oldfiles<cr>
+
+"nmap t <Plug>(easymotion-t)
+"nmap T <Plug>(easymotion-t2)
+map ? <Plug>(easymotion-sn)
+omap ? <Plug>(easymotion-tn)
+
+map <c-a-p> <Plug>(easymotion-prev)
+map <c-a-n> <Plug>(easymotion-next)
+
+map <c-a-h> <Plug>(easymotion-linebackward)
+map <c-a-j> <Plug>(easymotion-j)
+map <c-a-k> <Plug>(easymotion-k)
+map <c-a-l> <Plug>(easymotion-lineforward)
+
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 let g:EasyMotion_smartcase = 1
@@ -275,6 +286,30 @@ let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 let g:UltiSnipsEditSplit="vertical"  " If you want :UltiSnipsEdit to split your window.
 " }}}
 
+" leaderF for Vim ---{{{
+"搜索当前目录下的文件
+":LeaderfFile
+"<leader>f
+"
+"搜索当前的Buffer
+":LeaderfBuffer
+"<leader>b
+nmap <space>b :LeaderfBuffer<cr>
+"
+"搜索最近使用过的文件( search most recently used files)就是Mru
+":LeaderfMru
+nmap <space>m :LeaderfMru<cr>
+"
+"搜索当前文件的函数（相当强啊）
+":LeaderfFunction
+nmap <space>f :LeaderfFunction<cr>
+nmap f :LeaderfFunction<cr>
+"
+"搜索当前文件中有的某个单词（好处就是能把他们都列出来，不是很常用，其实，不过可以看看有多少行，也不错）
+":LeaderfLine
+nmap <space>l :LeaderfLine<cr>
+nmap / :LeaderfLine<cr>
+" }}}
 
 " auto command ---{{{
 "自动安装插件管理器
@@ -304,9 +339,21 @@ augroup filetype_python
   autocmd!
   " 表示清除当前组的所有autocmd
   autocmd FileType python setlocal foldmethod=indent
-  "autocmd FileType python set foldlevel=99  " 打开文件是默认不折叠代码
-  autocmd FileType python set nonu
+  "autocmd FileType python setlocal foldlevel=99  " 打开文件是默认不折叠代码
+  "zi 打开关闭折叠
+  "zv 查看此行
+  "zm 关闭折叠
+  "zM 关闭所有
+  "zr 打开
+  "zR 打开所有
+  "zc 折叠当前行
+  "zo 打开当前折叠
+  "zd 删除折叠
+  "zD 删除所有折叠
+  autocmd FileType python setlocal nonu
   autocmd FileType python setlocal tabstop=4
+  " autocmd FileType python setlocal softtabstop=4
+  autocmd FileType python setlocal shiftwidth=4               " 每一级缩进的长度
   " 设置TAB宽度
   " 高亮颜色配置 --{{
   "autocmd FileType python setlocal highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
@@ -321,11 +368,25 @@ augroup filetype_python
 augroup END
 " }}}
 
+augroup filetype_json
+  autocmd FileType json setlocal foldmethod=indent
+  autocmd FileType json setlocal nonu
+  autocmd FileType json setlocal expandtab               " 将TAB替换为空格
+  autocmd FileType json setlocal tabstop=2
+  autocmd FileType json setlocal shiftwidth=2               " 每一级缩进的长度
+augroup END
+
 augroup filetype_others
   "autocmd!
   "关闭所有的quickfix/locationlist
   "autocmd FileType vim autocmd! BufEnter * windo if &buftype == "quickfix" || &buftype == "locationlist" | cclose | endif
   autocmd FileType vim autocmd! BufEnter * lclose " TODO
+  autocmd FileType vim setlocal foldmethod=indent
+  autocmd FileType vim setlocal nonu
+  autocmd FileType vim setlocal expandtab               " 将TAB替换为空格
+  autocmd FileType vim setlocal tabstop=4
+  "autocmd FileType vim setlocal softtabstop=4
+  autocmd FileType vim setlocal shiftwidth=4               " 每一级缩进的长度
 augroup END
 
 augroup filetype_qf
